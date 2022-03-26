@@ -1,0 +1,31 @@
+---
+title: "Top Conditions"
+css: custom-css.css
+---
+
+
+
+```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 12}
+library(data.table)
+library(DT)
+
+library(tidyr)
+library(dplyr)
+library(kableExtra)
+liver <-fread("data/liver_biomarkers.tsv")
+dt <- liver[ order(-liver$year),]  %>% select(nct_id, Symbol,sentence,year)
+ 
+datatable(dt , caption = "Table 1:  Examples of biomarkers for Liver Failure" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+
+# dt %>% head(5) %>%  kable(format = 'markdown',  row.names = F,  caption = "<b>Table Biomarkers Liver Failure</b>" ) %>%
+#   column_spec(column = 3, width = "3in") %>%   kable_styling("hover", full_width = T) 
+
+
+liver[ order(-liver$year),]  %>% head(25) %>%  select(nct_id, Symbol, measurement, year)  %>%  
+     mutate(
+    nct_id = cell_spec(nct_id,  link = paste0("https://pubmed.ncbi.nlm.nih.gov/", nct_id) )) %>%  
+  kable(format = 'markdown', row.names = F,  caption = "<b>Table Biomarkers Liver Failure</b>" )  %>%
+  column_spec(1,  link = "https://pubmed.ncbi.nlm.nih.gov/")  %>% 
+     kable_styling("hover", bootstrap_options = "striped", full_width = T) 
+
+```
