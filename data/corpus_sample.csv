@@ -1,0 +1,413 @@
+nct_id	measurement	text	Symbol	label
+NCT00000948	CD4 count	CD4	CD4	cell surface
+NCT00078442	CD4 count	CD4	CD4	cell surface
+NCT00105313	CD-2 positive lymphoproliferative disorders.	CD-2	CD2	cell surface
+NCT00118378	CD4 Cell Count	CD4	CD4	cell surface
+NCT00119093	CD4 cell count	CD4	CD4	cell surface
+NCT00130819	CD4 cell count changes	CD4	CD4	cell surface
+NCT00149552	CD4 cell count <200 cells/uL	CD4	CD4	cell surface
+NCT00196599	CD4 cell count	CD4	CD4	cell surface
+NCT00339092	CD4 and Viral Load	CD4	CD4	cell surface
+NCT00339612	CD4 + T cell count	CD4	CD4	cell surface
+NCT00344487	Baseline Will be Defined as the Mean of 2 Values Obtained Prior to the Medication Switch (for Analysis Purposes, the CD4 Cell Counts at 6 and 12 Months Will be Defined by the Mean of the CD4 Cell Counts Obtained at Months 3, 6 or 9, 12, Respectively).	CD4	CD4	cell surface
+NCT00385957	CD4 cells (CD45RA+CD45RO-) and memory cells (CD45RA-CD45RO+)	CD4	CD4	cell surface
+NCT00445146	CD4 Cell Count at Baseline and Change From Baseline at Weeks 24, 48, 96, 144, 192, 240, 288, 336, and 384	CD4	CD4	cell surface
+NCT00536848	CD4 count	CD4	CD4	cell surface
+NCT00579709	CD4 count	CD4	CD4	cell surface
+NCT00579709	CD8 count in cells/mm3	CD8	CD8A	cell surface
+NCT00608569	CD8 cell count (median, inter-quartile range)	CD8	CD8A	cell surface
+NCT00608569	CD8 Count at Follow-up Visits	CD8	CD8A	cell surface
+NCT00633204	CD8 population	CD8	CD8A	cell surface
+NCT00773435	CD25/CD69 activation	CD25	IL2RA	cell surface
+NCT00773435	CD25/CD69 activation	CD69	CD69	cell surface
+NCT00803543	CD4 Count	CD4	CD4	cell surface
+NCT00821366	CD4 count	CD4	CD4	cell surface
+NCT00866619	CD considered were CD1 for ISA and CD1 and CD2 for MH. ISA of CD1 was defined as a documented hemoglobin < 5.0 g/dL identified at clinical presentation to morbidity surveillance system in association with a P. falciparum parasitemia > 5000 parasites/μL. MH of CD1 was defined as a medical hospitalization with confirmed P. falciparum > 5000 parasites/μL. MH of CD2 was defined as a hospitalization which, in the judgment of the principal investigator, P. falciparum infection was the sole or a major contributing factor to the presentation. Results presented are uncorrected for double enrollment of one subject in 5-17 months age category receiving GSK257049 vaccine.	CD2	CD2	cell surface
+NCT00993031	CD4 cell count recovery efavirenz at delivery	CD4	CD4	cell surface
+NCT00998049	CD34 Yield Day 2	CD34	CD34	cell surface
+NCT00998049	CD34 Yield on Day 1	CD34	CD34	cell surface
+NCT01084382	CD4 cell account	CD4	CD4	cell surface
+NCT01153269	CD4 Cell Count	CD4	CD4	cell surface
+NCT01176409	CD4 cell count	CD4	CD4	cell surface
+NCT01190124	CD4 Cells Count	CD4	CD4	cell surface
+NCT01246401	Baseline labs will be drawn while subject is in prison, one to three months prior to release. Additional labs will be drawn every 3 months for 1 year to monitor changes in CD4 levels.	CD4	CD4	cell surface
+NCT01280955	CD4 Cell Count at Day 30	CD4	CD4	cell surface
+NCT01280955	CD8 cell count at Day 30; CD8 (cluster of differentiation 8) is a transmembrane glycoprotein that serves as a co-receptor for the T cell receptor (TCR).	CD8	CD8A	cell surface
+NCT01280955	CD8 cell count at Day 60; CD8 (cluster of differentiation 8) is a transmembrane glycoprotein that serves as a co-receptor for the T cell receptor (TCR).	CD8	CD8A	cell surface
+NCT01280955	CD8 Cell Count at Day 90	CD8	CD8A	cell surface
+NCT01291485	CD4 cell count	CD4	CD4	cell surface
+NCT01395771	CD4 cell counts will be measured only at baseline survey and after 3 months	CD4	CD4	cell surface
+NCT01458977	CD4 cell count	CD4	CD4	cell surface
+NCT01596062	CD25 saturation is the percentage of T cells expressing CD25. Mean AUC of CD25 was calculated only for patients who received two Simulect® injections.	CD25	IL2RA	cell surface
+NCT01743521	CD4 and HIV RNA	CD4	CD4	cell surface
+NCT01802736	CD4 Cell count in the last 6 months preceding the study visit	CD4	CD4	cell surface
+NCT01874743	CD8 T cell activation	CD8	CD8A	cell surface
+NCT01885728	Capacity of cluster of differentiation 4 (CD4)+ and cluster of differentiation 8 (CD8)+ cells	CD4	CD4	cell surface
+NCT02140216	CD2 Cellular immunologic parameter (non-radioisotope),	CD2	CD2	cell surface
+NCT02228096	CD19 Status of Bone Marrow/Blood Relapse in FAS Patients Who Achieved CR or CRi and Then Relapsed	CD19	CD19	cell surface
+NCT02253160	CD34+ Collection Efficiency (CE1 %)	CE1	CES1	cell surface
+NCT02253160	CD34+ Collection Efficiency (CE2 %)	CE2	CES2	cell surface
+NCT02285374	CD4 cell count and %	CD4	CD4	cell surface
+NCT02296541	Breadth of CD4 T-cell responses determined by epitope mapping, 2 weeks after the last DNA vaccination	CD4	CD4	cell surface
+NCT02447016	CD4 cell count (number of cells per mm3)	CD4	CD4	cell surface
+NCT02718573	CD8 T cells	CD8	CD8A	cell surface
+NCT02816957	CD4 and CD8 cell per cmm	CD4	CD4	cell surface
+NCT02829723	CD163 (Phase I)	CD163	CD163	cell surface
+NCT02888756	CD8 T Cell Mediated Viral Suppression	CD8	CD8A	cell surface
+NCT03158129	CD8 positive (+) tumor infiltrating lymphocytes (TILs) quantification	CD8	CD8A	cell surface
+NCT03161379	CD8 count (cells/mm^3) in the tumor microenvironment	CD8	CD8A	cell surface
+NCT03196414	CART Cell survival time by testing CART-138/BCMA cells copies in vivo through PCR Method.	CART	CARTPT	cell surface
+NCT03303625	CD4 and CD8 T-cell subsets and their Cytokine expression as Measured by Intracellular cytokine Staining (ICS)	CD4	CD4	cell surface
+NCT03303625	CD4 and CD8 T-cell subsets and their Cytokine expression as Measured by Intracellular cytokine Staining (ICS)	CD8	CD8A	cell surface
+NCT03407105	CD8 T cell cytokine responses to Candida antigen	CD8	CD8A	cell surface
+NCT03407105	CD8 T cell cytokine responses to tetanus antigen	CD8	CD8A	cell surface
+NCT03514550	CD8 expression on lymphocytes measured with flow cytometry	CD8	CD8A	cell surface
+NCT03605940	CD8 T cells number	CD8	CD8A	cell surface
+NCT03689101	CD138 counting	CD138	SDC1	cell surface
+NCT03746457	CD-4 count	CD-4	CD4	cell surface
+NCT03746600	CD4 cell count as determined by medical chart	CD4	CD4	cell surface
+NCT03860844	CD38 receptor density will be assessed at baseline and CD38 receptor occupancy at Day 15 and correlated with clinical endpoints.	CD38 receptor	CD38	cell surface
+NCT04055207	CD4 cell count	CD4	CD4	cell surface
+NCT04418154	CD8 in tumor samples by biopsy at baseline and by surgery immediately after surgery would be evaluated by HE or immune staining. CD8 in blood at baseline, at the end of Cycle 2, Cycle 4, Cycle 6 and Cycle 8 of neoadjuvant therapy (each cycle is 28 days), before and immediately after the surgery would also be obtained to evaluate its trends for the treatment.	CD8	CD8A	cell surface
+NCT04465643	B7-H3 cell count in cells/mm^3	B7-H3	CD276	cell surface
+NCT04465643	B7-H4 cell count in cells/mm^3	B7-H4	VTCN1	cell surface
+NCT04465643	CD11b Cell Count	CD11b	ITGAM	cell surface
+NCT04465643	CD11b cell count in cells/mm^3	CD11b	ITGAM	cell surface
+NCT04465643	CD14 Cell Count	CD14	CD14	cell surface
+NCT04465643	CD14 cell count in cells/mm^3	CD14	CD14	cell surface
+NCT04465643	CD163 Cell Count	CD163	CD163	cell surface
+NCT04465643	CD163 cell count in cells/mm^3	CD163	CD163	cell surface
+NCT04465643	CD19 Cell Count	CD19	CD19	cell surface
+NCT04465643	CD19 cell count in cells/mm^3	CD19	CD19	cell surface
+NCT04465643	CD1a Cell Count	CD1a	CD1A	cell surface
+NCT04465643	CD1a cell count in cells/mm^3	CD1a	CD1A	cell surface
+NCT04465643	CD206 Cell Count	CD206	MRC1	cell surface
+NCT04465643	CD206 cell count in cells/mm^3	CD206	MRC1	cell surface
+NCT04465643	CD25 cell count in cells/mm^3	CD25	IL2RA	cell surface
+NCT04465643	CD4 Cell Count	CD4	CD4	cell surface
+NCT04465643	CD8 Cell Count	CD8	CD8A	cell surface
+NCT04500678	CD8 T cell PD1+TIGIT+	CD8	CD8A	cell surface
+NCT04619693	CD4 cell count	CD4	CD4	cell surface
+NCT04619693	CD8 cell count	CD8	CD8A	cell surface
+NCT04619693	CD8 refers to cluster of differentiation 8.	CD8	CD8A	cell surface
+NCT04677842	CD4 change from drug start up to 144 weeks	CD4	CD4	cell surface
+NCT04797260	CD3 T cells > 300/μL and CD4 > 200/μL at 1 year	CD4	CD4	cell surface
+NCT04868136	CD8 T cell mobilization by exercise	CD8	CD8A	cell surface
+NCT05083754	CD4 cell count	CD4	CD4	cell surface
+NCT05083754	CD8 cell count	CD8	CD8A	cell surface
+NCT05088941	CD34 recovery	CD34	CD34	cell surface
+NCT00385398	Frequency of O6-methylguanine-DNA methyltransferase promoter methylation	O6-methylguanine-DNA methyltransferase promoter	MGMT	epigenetic
+NCT00482677	Methylation Status of the O6-methylguanine-DNA Methyltransferase Promoter	O6-methylguanine-DNA Methyltransferase Promoter	MGMT	epigenetic
+NCT00516282	MGMT Methylation Status	MGMT	MGMT	epigenetic
+NCT00611000	DNA methylation (overall, p53 coding, p16 promoter, MLH1 promoter) in PBMCs and rectal biopsy cells	MLH1 promoter	MLH1	epigenetic
+NCT00611000	DNA methylation (overall, p53 coding, p16 promoter, MLH1 promoter) in PBMCs and rectal biopsy cells	p16 promoter	CDKN2A	epigenetic
+NCT00611000	DNA methylation (overall, p53 coding, p16 promoter, MLH1 promoter) in PBMCs and rectal biopsy cells	p16 promoter	H3P10	epigenetic
+NCT00619112	Progression-free Survival (PFS) Based on Tumor MGMT (O(6)-Methylguanine-DNA Methyltransferase) Promoter Methylation Status.	Methylguanine-DNA Methyltransferase	MGMT	epigenetic
+NCT00619112	Progression-free survival data (obtained for Primary Outcome Measure) was correlated with tumor MGMT (O(6)-methylguanine-DNA methyltransferase) promoter methylation status, obtained from patients as part of the study.	methylguanine-DNA methyltransferase	MGMT	epigenetic
+NCT00619112	Progression-free Survival (PFS) Based on Tumor MGMT (O(6)-Methylguanine-DNA Methyltransferase) Promoter Methylation Status.	MGMT	MGMT	epigenetic
+NCT00619112	Progression-free survival data (obtained for Primary Outcome Measure) was correlated with tumor MGMT (O(6)-methylguanine-DNA methyltransferase) promoter methylation status, obtained from patients as part of the study.	MGMT	MGMT	epigenetic
+NCT00899171	Role of methylation and histone modification in IRF8 gene expression	IRF8 gene	IRF8	epigenetic
+NCT01013285	Median Overall Survival (OS) Based on the MGMT Promoter Methylation Status	MGMT Promoter	MGMT	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	APC	APC	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	APC	PROC	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	AXIN2	AXIN2	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	CDH1	CDH1	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	DKK1	DKK1	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	GATA4	GATA4	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	GSTP1	GSTP1	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	SFRP1	SFRP1	epigenetic
+NCT01214681	Target gene methylation (p16, GSTP1, RARβ2, CDH1 GATA4 APC, SFRP1, 2, 4 and 5, AXIN2, DKK1 and WIF1)	WIF1	WIF1	epigenetic
+NCT01242566	Efficacy according to MGMT Promoter methylation status	MGMT Promoter	MGMT	epigenetic
+NCT01313039	Rate of ER Promoter Methylation in ER-negative/Low Breast Cancer	ER Promoter	ESR1	epigenetic
+NCT01390571	Measurement of methylation of the MGMT promoter gene by bisulfite modification of DNA and pyrosequencing	MGMT promoter gene	MGMT	epigenetic
+NCT01459380	Methylation status in the promoter of the BRCA1 or BRCA2 genes	BRCA1	BRCA1	epigenetic
+NCT01459380	Methylation status in the promoter of the BRCA1 or BRCA2 genes	BRCA2 genes	BRCA2	epigenetic
+NCT01525082	O6-methylguanine DNA Methyltransferase (MGMT) by Promoter Methylation	MGMT	MGMT	epigenetic
+NCT01525082	O6-methylguanine DNA Methyltransferase (MGMT) by Promoter Methylation	O6-methylguanine DNA Methyltransferase	MGMT	epigenetic
+NCT01534845	Methylation status of MGMT	MGMT	MGMT	epigenetic
+NCT01634776	Stability of methylation of promoter region of FADS2 gene	FADS2 gene	FADS2	epigenetic
+NCT01639131	CHFR methylation	CHFR	CHFR	epigenetic
+NCT01639131	CHFR methylation II	CHFR	CHFR	epigenetic
+NCT01700569	MGMT gene re-methylation	MGMT gene	MGMT	epigenetic
+NCT01715233	CHFR Methylation Status	CHFR	CHFR	epigenetic
+NCT01849146	MGMT methylation status	MGMT	MGMT	epigenetic
+NCT02005289	Zap-70 methylation	Zap-70	ZAP70	epigenetic
+NCT02209948	Median Progression-free Survival (PFS) by Arm and MGMT Methylation Status	MGMT	MGMT	epigenetic
+NCT02209948	Median Overall Survival (OS) by Arm and MGMT Methylation Status	MGMT	MGMT	epigenetic
+NCT02479113	DNA methylation of placental leptin gene	leptin gene	LEP	epigenetic
+NCT02685605	OS with respect to MGMT promoter methylation status	MGMT promoter	MGMT	epigenetic
+NCT02685605	PFS with respect to MGMT promoter methylation status	MGMT promoter	MGMT	epigenetic
+NCT02868905	Methylation of CpG islands in genomic DNA and in 4 target genes involved in AD (APP, SorLA/LR11, BACE1, LRP) in obese and AD subjects	APP	APP	epigenetic
+NCT02868905	Methylation of CpG islands in genomic DNA and in 4 target genes involved in AD (APP, SorLA/LR11, BACE1, LRP) in obese and AD subjects	BACE1	BACE1	epigenetic
+NCT02868905	Methylation of CpG islands in genomic DNA and in 4 target genes involved in AD (APP, SorLA/LR11, BACE1, LRP) in obese and AD subjects	LR11	SORL1	epigenetic
+NCT02868905	Methylation of CpG islands in genomic DNA and in 4 target genes involved in AD (APP, SorLA/LR11, BACE1, LRP) in obese and AD subjects	SorLA	SORL1	epigenetic
+NCT02965703	Methylation in CDKN2A (cell cycle regulation), MGMT (deoxyribonucleic acid [DNA] repair), DAPK1 (apoptosis), CDH1 (cell invasion), WNT16 (Wnt pathway), and RASSF1 (RAS signaling) assessed by pyrosequencing method	CDH1	CDH1	epigenetic
+NCT02965703	Methylation in CDKN2A (cell cycle regulation), MGMT (deoxyribonucleic acid [DNA] repair), DAPK1 (apoptosis), CDH1 (cell invasion), WNT16 (Wnt pathway), and RASSF1 (RAS signaling) assessed by pyrosequencing method	CDKN2A	CDKN2A	epigenetic
+NCT02965703	Methylation in CDKN2A (cell cycle regulation), MGMT (deoxyribonucleic acid [DNA] repair), DAPK1 (apoptosis), CDH1 (cell invasion), WNT16 (Wnt pathway), and RASSF1 (RAS signaling) assessed by pyrosequencing method	DAPK1	DAPK1	epigenetic
+NCT02997423	MGMT methylation status on OS and PFS	MGMT	MGMT	epigenetic
+NCT02997423	Compare the prognostic abilities of CcO activity to another frequently used biomarker, the methylation status of O6-methylguanine-DNA methyltransferase (MGMT) on OS and PFS times.	MGMT	MGMT	epigenetic
+NCT02997423	Compare the prognostic abilities of CcO activity to another frequently used biomarker, the methylation status of O6-methylguanine-DNA methyltransferase (MGMT) on OS and PFS times.	O6-methylguanine-DNA methyltransferase	MGMT	epigenetic
+NCT03014804	Association of Progression Free Survival (PFS) and Overall Survival (OS) with MGMT methylation status	MGMT	MGMT	epigenetic
+NCT03025893	MGMT promoter methylation status	MGMT promoter	MGMT	epigenetic
+NCT03135795	Quantification of methylation in CpG islands located in gene OPRM1	OPRM1	OPRM1	epigenetic
+NCT03146520	Positive ratio of SDC2 methylation in other cancers	SDC2	SDC2	epigenetic
+NCT03146520	Positive ratio of SDC2 methylation in polyps	SDC2	SDC2	epigenetic
+NCT03205761	BRCA1 and BRCA2 expression data will be correlated with promoter methylation status	BRCA1	BRCA1	epigenetic
+NCT03205761	BRCA1 and BRCA2 expression data will be correlated with promoter methylation status	BRCA2	BRCA2	epigenetic
+NCT03236272	Detection of methylation of occludin (OCLN) gene	occludin	OCLN	epigenetic
+NCT03236272	Detection of methylation of occludin (OCLN) gene	OCLN	OCLN	epigenetic
+NCT03542097	Assessment of MGMT promoter methylation	MGMT promoter	MGMT	epigenetic
+NCT03651388	Study of the methylation of the BCL2 promoter	BCL2 promoter	BCL2	epigenetic
+NCT03718104	Maternal saliva OPRM1 methylation status	OPRM1	OPRM1	epigenetic
+NCT03795688	Composite measure of methylation status for the FKBP5, glucocorticoid receptor, 11-beta hydroxysteroid dehydrogenase type 2 genes. Infants from total group	FKBP5	FKBP5	epigenetic
+NCT03795688	Composite measure of methylation status for the FKBP5, glucocorticoid receptor, 11-beta hydroxysteroid dehydrogenase type 2 genes. Infants from total group	glucocorticoid receptor	NR3C1	epigenetic
+NCT03795688	DNA methylation of the glucocorticoid receptor gene	glucocorticoid receptor gene	NR3C1	epigenetic
+NCT03795688	Methylation status for the glucocorticoid receptor gene, total group	glucocorticoid receptor gene	NR3C1	epigenetic
+NCT03795688	DNA methylation of the MAO-A gene	MAO-A gene	MAOA	epigenetic
+NCT03795688	Change in DNA methylation of the MAO-A gene	MAO-A gene	MAOA	epigenetic
+NCT03795688	DNA methylation of the oxytocin gene	oxytocin gene	OXT	epigenetic
+NCT03795688	Change in DNA methylation of the oxytocin gene	oxytocin gene	OXT	epigenetic
+NCT03795688	DNA methylation of the oxytocin receptor gene	oxytocin receptor gene	OXTR	epigenetic
+NCT03795688	DNA methylation of the SERT gene	SERT gene	SLC6A4	epigenetic
+NCT03795688	DNA Methylation status for the SERT gene, total group	SERT gene	SLC6A4	epigenetic
+NCT03897491	MGMT promoter methylation status of the patient	MGMT promoter	MGMT	epigenetic
+NCT04027374	Methylation status at NRC3C1 and the FKBP5 gene	FKBP5 gene	FKBP5	epigenetic
+NCT04096521	DNA methylation of IGF2 gene	IGF2 gene	IGF2	epigenetic
+NCT04096521	DNA methylation of IGF2 gene using pyrosequencing method	IGF2 gene	IGF2	epigenetic
+NCT04106310	DNA methylation analysis of IFNGR1 gene	IFNGR1 gene	IFNGR1	epigenetic
+NCT04106310	DNA methylation analysis of LY96 gene	LY96 gene	LY96	epigenetic
+NCT04106310	DNA methylation analysis of TRPV1 gene	TRPV1 gene	TRPV1	epigenetic
+NCT04304131	SDC2 methylation in stool DNA	SDC2	SDC2	epigenetic
+NCT04560517	Evolution of BDNF gene methylation	BDNF gene	BDNF	epigenetic
+NCT04818112	Oxytocin receptor gene DNA methylation reflecting epigenetic marks	Oxytocin receptor gene	OXTR	epigenetic
+NCT04832269	DNA methylation at GC receptor gene NR3C1 and at the H19 locus	GC receptor gene	GC	epigenetic
+NCT04832269	DNA methylation at GC receptor gene NR3C1 and at the H19 locus	NR3C1	NR3C1	epigenetic
+NCT04893356	To analyze the methylation status of the MGMT promoter in histological specimens	MGMT promoter	MGMT	epigenetic
+NCT04981821	Difference between experimental and active comparator arms- DNA methylation in the TNFα promoter region	TNFα promoter	TNF	epigenetic
+NCT04981821	DNA methylation in the TNFα promoter region	TNFα promoter	TNF	epigenetic
+NCT00550485	ABCB1 gene expression	ABCB1 gene	ABCB1	gene expression
+NCT01185587	ACE mRNA	ACE	ACE	gene expression
+NCT01251458	To correlate stathmin expression in pre-treatment HCC tumour biopsies and clinical response to Torisel®	stathmin	STMN1	gene expression
+NCT01424306	Adipose Tissue Inflammation - Tissue Expression of IL-6 mRNA	IL-6	IL6	gene expression
+NCT01424306	Adipose Tissue Inflammation - Tissue Expression of TNF-alpha mRNA	TNF-alpha	TNF	gene expression
+NCT01861314	Change in miR-29b expression in blood and bone marrow	miR-29b	MIR29B1	gene expression
+NCT01861314	Change in miR-29b expression in blood and bone marrow	miR-29b	MIR29B2	gene expression
+NCT02498002	ACACA Gene Expression in Subcutaneous Adipose Tissue	ACACA Gene	ACACA	gene expression
+NCT02498002	ACADM Gene Expression in Subcutaneous Adipose Tissue	ACADM Gene	ACADM	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	CD36	CD36	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	HIF-1a	HIF1A	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	LPL	LPL	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	midkine	MDK	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	restin	CLIP1	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	restin	COL15A1	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	restin	MAGEH1	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	tenascin-C	TNC	gene expression
+NCT02845063	mRNA expression of VEGF, HIF-1a, HIF-1b, tenascin-C, Angpt1, Angpt1R, neuropilin, midkine, restin, COX4-1, COX4I-2, CPTI, LPL, LIPE, FATP, CD36 [relative expression per 28S rRNA]	VEGF	VEGFA	gene expression
+NCT02928614	Change in miRNA let-7e	let-7e	MIRLET7E	gene expression
+NCT02970942	Change in microRNA 122 (miR-122)	microRNA 122	MIR122	gene expression
+NCT02970942	Change in microRNA 122 (miR-122)	miR-122	MIR122	gene expression
+NCT02970942	Change in miR-122 (measured as 1/microliter) is presented as ratio to baseline. The endpoint was evaluated based on the data from in-trial period which started on the date of the randomisation visit and ended on the first of the following dates (both inclusive): 1) follow-up visit (Week 79); 2) withdrawal of consent; 3) last contact with participant (for participants lost to follow-up); 4) death.	miR-122	MIR122	gene expression
+NCT02983279	Change in genomic expression of microRNA 21 (miR-21)	microRNA 21	MIR21	gene expression
+NCT02983279	Change in genomic expression of microRNA 21 (miR-21)	miR-21	MIR21	gene expression
+NCT02983279	Change in miR-21 expression assessed in serum	miR-21	MIR21	gene expression
+NCT03278977	Acetylcholinesterase mRNA expression in blood	Acetylcholinesterase	ACHE	gene expression
+NCT03373786	Change in miR-21 expression in renal tissue	miR-21	MIR21	gene expression
+NCT03442374	ADIPOQ gene expression	ADIPOQ gene	ADIPOQ	gene expression
+NCT03442374	ADIPOQ gene expression (delta CT/delta CT)	ADIPOQ gene	ADIPOQ	gene expression
+NCT03719339	Amount of CD3E mRNA (CD3-epsilon polypeptide)	CD3-epsilon	CD3E	gene expression
+NCT03719339	Amount of CD3E mRNA (CD3-epsilon polypeptide)	CD3E	CD3E	gene expression
+NCT03804411	Change from baseline in serum level of microRNA-126, microRNA-21, microRNA-27, miRNA-125 and miRoRNA-155 (relative units)	microRNA-126	MIR126	gene expression
+NCT03804411	Change from baseline in serum level of microRNA-126, microRNA-21, microRNA-27, miRNA-125 and miRoRNA-155 (relative units)	microRNA-21	MIR21	gene expression
+NCT04137627	Change in Expression of miR-210 as Measured by qRT-PCR Absolute Quantification	miR-210	MIR210	gene expression
+NCT04140968	Change in miRNA expression (miR-370, miR-29b)	miR-29b	MIR29B1	gene expression
+NCT04140968	Change in miRNA expression (miR-370, miR-29b)	miR-29b	MIR29B2	gene expression
+NCT04546698	5-HT7 Serotonin receptor mRNA quantity	5-HT7	HTR7	gene expression
+NCT04802044	Aging Parameter (ACE-2 gene expression) in COVID-19 Patients	ACE-2 gene	ACE2	gene expression
+NCT04909489	3-phosphoglycerate dehydrogenase (PHGDH) RNA in the cell models of disease-TCM syndrome	3-phosphoglycerate dehydrogenase	PHGDH	gene expression
+NCT04909489	3-phosphoglycerate dehydrogenase (PHGDH) RNA in the cell models of disease-TCM syndrome	PHGDH	PHGDH	gene expression
+NCT05097365	Change from baseline on miR-126 expression at 12 weeks	miR-126	MIR126	gene expression
+NCT05097365	Change from baseline on miR-21 expression at 12 weeks	miR-21	MIR21	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	Annexin-V	ANXA5	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	BTLA	BTLA	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	CTLA4	CTLA4	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	granzyme B	GZMB	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	IFN-gamma	IFNG	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	LAG3	LAG3	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	PD1	PDCD1	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	TIGIT	TIGIT	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	TIM3	HAVCR2	gene expression
+NCT05127824	Alterations in transcriptional profiling of tumor-associated TLS and the TME after treatment. IFM reduction in co-expression of exhaustion markers including immune checkpoint molecules (PD1, CTLA4, LAG3, TIM3, TIGIT, BTLA, VISTA) and (pro-apoptotic) Annexin-V, and increase in expression of IFN-gamma and granzyme B in TLS vs. non-TLS-associated tumor tissue.	TLS	FUS	gene expression
+NCT01016106	Heterozygous for Filaggrin (FLG) Null Mutations	Filaggrin	FLG	genetic
+NCT01291745	Validation of the prognostic potential of TET2 mutations	TET2	TET2	genetic
+NCT01415765	Analyze mutations of the ITAM motifs, CARD11 and A20 in DLBCL	CARD11	CARD11	genetic
+NCT01417442	BRAF V600E MUTATION	BRAF	BRAF	genetic
+NCT01466257	Mutation rates of HRAS and PIK3CA	PIK3CA	PIK3CA	genetic
+NCT01663142	The prevalence of mutations IGRM, Atg16 and IL23 will be determined	IL23	IL23A	genetic
+NCT01849705	MC4R mutations	MC4R	MC4R	genetic
+NCT01874769	Identification of COL7A1 mutations	COL7A1	COL7A1	genetic
+NCT01888055	genetic polymorphism, ApoE4	ApoE4	APOE	genetic
+NCT01907555	spectrum of mutations VPS13B	VPS13B	VPS13B	genetic
+NCT01970696	DICER1 mutations in ovarian and testicular stromal tumors	DICER1	DICER1	genetic
+NCT01971489	PIK3CA mutations	PIK3CA	PIK3CA	genetic
+NCT02054299	Genetic variants in OCT1, CYP2C19, CYP2D6 and MAO A	CYP2C19	CYP2C19	genetic
+NCT02054299	Genetic variants in OCT1, CYP2C19, CYP2D6 and MAO A	CYP2D6	CYP2D6	genetic
+NCT02054299	Genetic variants in OCT1, CYP2C19, CYP2D6 and MAO A	CYP2D6	LOC107987479	genetic
+NCT02054299	Genetic variants in OCT1, CYP2C19, CYP2D6 and MAO A	OCT1	POU2F1	genetic
+NCT02054299	Genetic variants in OCT1, CYP2C19, CYP2D6 and MAO A	OCT1	SLC22A1	genetic
+NCT02065687	Incidence of PIK3 Mutations/Amplifications	PIK3	PIK3CG	genetic
+NCT02101775	TP53 mutations	TP53	TP53	genetic
+NCT02125344	Examination of PIK3CA mutation	PIK3CA	PIK3CA	genetic
+NCT02127034	Genotyping for CYP2D6	CYP2D6	CYP2D6	genetic
+NCT02216370	Documented Atrial Fibrillation after episode of cryptogenic stroke / TIA Documented genetic mutation PITX2 chromosome 4q25, polymorphism rs1906591,rs10033464 and ZFHX3 chromosome 16q22, polymorphism rs2106261	PITX2	PITX2	genetic
+NCT02296918	development of BTK mutations	BTK	BTK	genetic
+NCT02401035	CYP2C19 genotyping will be summarized descriptively	CYP2C19	CYP2C19	genetic
+NCT02451865	Mutations in KRAS and NRAS	NRAS	NRAS	genetic
+NCT02479087	Role of FVIII mutations in influencing IT achievement	FVIII	F8	genetic
+NCT02665819	Detect the genetic polymorphism of the FSH and AMH hormones.	FSH	BRD2	genetic
+NCT02738866	Prevalence of ESR1 and PI3K mutations	PI3K	PIK3CG	genetic
+NCT02827565	Technical Optimization of KRAS, BRAF and NRAS mutations detection	NRAS	NRAS	genetic
+NCT02834234	BAP1 mutations	BAP1	BAP1	genetic
+NCT02849977	Identification of individuals with POMC, LepR or PCSK1 genetic mutations	PCSK1	PCSK1	genetic
+NCT02849977	Identification of individuals with POMC, LepR or PCSK1 genetic mutations	POMC	POMC	genetic
+NCT03114098	prevalence of a CYP2D6 duplication or polymorphisms	CYP2D6	LOC107987479	genetic
+NCT03267225	Genetic polymorphism of PXR, LXRalpha, CYP450 on clindamycin clearance before combination therapy with rifampin (clindamycin monotherapy)	PXR	NR1I2	genetic
+NCT03318263	incidence of PIK3CA and AKT1 mutations	AKT1	AKT1	genetic
+NCT03318263	incidence of ESR1 mutations	ESR1	ESR1	genetic
+NCT03460483	Incidence of tumors with microsatellite instability and/or somatic POLE mutations	POLE	POLE	genetic
+NCT03537560	Follow-up detection of IDH2 mutations	IDH2	IDH2	genetic
+NCT03537560	Detection of IDH2 mutations	IDH2	IDH2	genetic
+NCT03698747	Explore whether a genetic mutation in the APoE4 allele predisposes football players to decreased or disorganized myelination after mTBI.	APoE4	APOE	genetic
+NCT03768284	CARD14 mutations	CARD14	CARD14	genetic
+NCT04241367	Clinical applicability of KRAS mutations	KRAS	KRAS	genetic
+NCT04477564	TET2, ASXL1, TP53, JAK2, SF3B1, SRSF2, GNB1, CBL, BCOR, SH2B3, PPM1D mutations screening	ASXL1	ASXL1	genetic
+NCT04500535	Distribution of clinical characteristics: BRAF mutation	BRAF	BRAF	genetic
+NCT04500535	Distribution of clinical characteristics: KRAS mutation	KRAS	KRAS	genetic
+NCT04524975	CYP2D6 polymorphism	CYP2D6	CYP2D6	genetic
+NCT04657562	SNP genotyping to address CYP3A genetic variations (CYP3A4 and CYP3A5)	CYP3A	CYP3A4	genetic
+NCT04657562	SNP genotyping to address CYP3A genetic variations (CYP3A4 and CYP3A5)	CYP3A4	CYP3A4	genetic
+NCT04657562	SNP genotyping to address CYP3A genetic variations (CYP3A4 and CYP3A5)	CYP3A5	CYP3A5	genetic
+NCT04878770	FLG null mutations	FLG	FLG	genetic
+NCT04904419	Intraoperative Rapid Detection mutation of IDH, TERT and BRAF v600e	BRAF	BRAF	genetic
+NCT04938986	KRAS, NRAS and BRAF mutations	BRAF	BRAF	genetic
+NCT04947215	LPCAT1 genetic polymorphism	LPCAT1	LPCAT1	genetic
+NCT00049556	Biochem. modulation of EGFR signal transduction pathways in skin biopsy tissue by tissue lysate array reduction in phosphorylation of EGFR , AKT, and ERK in skin biopsies at baseline and at 4 weeks during therapy	EGFR	EGFR	phosphorylation
+NCT00049556	Biochem. modulation of EGFR signal transduction pathways in skin biopsy tissue by tissue lysate array reduction in phosphorylation of EGFR , AKT, and ERK in skin biopsies at baseline and at 4 weeks during therapy	ERK	MAPK1	phosphorylation
+NCT00075647	Descriptive statistics will be applied to report the mean, duration of the effects on p70s6k phosphorylation.	p70s6k	RPS6KB1	phosphorylation
+NCT00335868	Changes in histone H3 and CRKL phosphorylation	CRKL	CRKL	phosphorylation
+NCT00612209	To evaluate pharmacodynamics of phosphorylated c-Met, total c-Met, apoptosis marker (TUNEL) and phosphorylated FAK in tumor tissue correlated with administration of ARQ 197.	c-Met	MET	phosphorylation
+NCT00612209	To evaluate pharmacodynamics of phosphorylated c-Met, total c-Met, apoptosis marker (TUNEL) and phosphorylated FAK in tumor tissue correlated with administration of ARQ 197.	FAK	PTK2	phosphorylation
+NCT00673569	Extent of inhibition of ERK phosphorylation by erlotinib hydrochloride	ERK	EPHB2	phosphorylation
+NCT00732290	Level of phosphorylated VASP (vasodilator- stimulated phosphoprotein), a good index of P2Y12 activity (platelet receptor of clopidogrel) and P-selectin by flow cytometry.	vasodilator- stimulated phosphoprotein	VASP	phosphorylation
+NCT00732290	Level of phosphorylated VASP (vasodilator- stimulated phosphoprotein), a good index of P2Y12 activity (platelet receptor of clopidogrel) and P-selectin by flow cytometry.	VASP	VASP	phosphorylation
+NCT00819546	Observe the pharmacodynamic effects on the phosphorylation of FLT3 and on activation of relevant signaling pathways and correlate such activation with response.	FLT3	FLT3	phosphorylation
+NCT00904345	Mean Change in Tumor Phosphorylated EGFR (pEGFR)	EGFR	EGFR	phosphorylation
+NCT01134601	Changes in Phosphorylated ERK (pERK) in Peripheral Blood Mononuclear Cells and Tumor, and Transforming Growth Factor Alpha (TGFa) Levels	ERK	MAPK1	phosphorylation
+NCT01222143	To evaluate the pharmacodynamic effects of nilotinib on pERK and pAKT (phosphorylated ERK and AKT) in AML cells in vivo.	AKT	AKT1	phosphorylation
+NCT01222143	To evaluate the pharmacodynamic effects of nilotinib on pERK and pAKT (phosphorylated ERK and AKT) in AML cells in vivo.	ERK	MAPK1	phosphorylation
+NCT01240252	Proportion of insulin resistant patients with elevated serine/threonine phosphorylation of IRS-1 in muscle.	IRS-1	IRS1	phosphorylation
+NCT01266486	Measure Metformin Induced effects in phosphorylation of S6K, 4E-BP-1 and AMPK via immunohistochemical analysis	4E-BP-1	EIF4EBP1	phosphorylation
+NCT01266486	Measure Metformin Induced effects in phosphorylation of S6K, 4E-BP-1 and AMPK via immunohistochemical analysis	AMPK	PRKAA1	phosphorylation
+NCT01266486	Measure Metformin Induced effects in phosphorylation of S6K, 4E-BP-1 and AMPK via immunohistochemical analysis	AMPK	PRKAA2	phosphorylation
+NCT01266486	Measure Metformin Induced effects in phosphorylation of S6K, 4E-BP-1 and AMPK via immunohistochemical analysis	AMPK	PRKAB1	phosphorylation
+NCT01266486	Measure Metformin Induced effects in phosphorylation of S6K, 4E-BP-1 and AMPK via immunohistochemical analysis	S6K	RPS6KB1	phosphorylation
+NCT01581060	Assessment of ERK phosphorylation (pERK) in PBMC and tissue, assessment of TNF-alpha in plasma after oral intake of the OBD/MTD.	ERK	MAPK1	phosphorylation
+NCT01922167	Quantity of the following proteins and their phosphorylation status: Protein kinase B (Akt) and phosphorylation on Ser473. Eukaryotic translation initiation factor 4E-binding protein 1 (4E-BP1) and phosphorylation on Thr37/46. Ribosomal protein S6 kinase beta-1 (S6K1) and phosphorylation on Thr389. Ribosomal protein S6 (rpS6) and phosphorylation on Ser240/244. Proline-rich Akt substrate of 40 kilodaltons (PRAS40) and phosphorylation on Thr246. Forkhead box O3a (FoxO3a) and phosphorylation on Thr32	FoxO3a	FOXO3	phosphorylation
+NCT01922167	Quantity of the following proteins and their phosphorylation status: Protein kinase B (Akt) and phosphorylation on Ser473. Eukaryotic translation initiation factor 4E-binding protein 1 (4E-BP1) and phosphorylation on Thr37/46. Ribosomal protein S6 kinase beta-1 (S6K1) and phosphorylation on Thr389. Ribosomal protein S6 (rpS6) and phosphorylation on Ser240/244. Proline-rich Akt substrate of 40 kilodaltons (PRAS40) and phosphorylation on Thr246. Forkhead box O3a (FoxO3a) and phosphorylation on Thr32	Protein kinase B	PTK2B	phosphorylation
+NCT01922167	Quantity of the following proteins and their phosphorylation status: Protein kinase B (Akt) and phosphorylation on Ser473. Eukaryotic translation initiation factor 4E-binding protein 1 (4E-BP1) and phosphorylation on Thr37/46. Ribosomal protein S6 kinase beta-1 (S6K1) and phosphorylation on Thr389. Ribosomal protein S6 (rpS6) and phosphorylation on Ser240/244. Proline-rich Akt substrate of 40 kilodaltons (PRAS40) and phosphorylation on Thr246. Forkhead box O3a (FoxO3a) and phosphorylation on Thr32	Protein kinase B	AKT1	phosphorylation
+NCT01925274	Pre defined signaling proteins included Akt (protein kinase B), p-Akt (phosphorylated Akt), p-S6 (phosphorylated ribosomal protein S6), p-Met (phosphorylated Met, a receptor tyrosine kinase), p-mTOR (phosphorylated mammalian target of rapamycin), EGFR (epithelial growth factor receptor), and p-EGFR (phosphorylated EGFR).	ribosomal protein S6	RPS6	phosphorylation
+NCT01979523	Change in Suppression of Phosphorylated (p)-ERK, AKT, and Cyclin-D1	AKT	AKT1	phosphorylation
+NCT01979523	Change in Suppression of Phosphorylated (p)-ERK, AKT, and Cyclin-D1	Cyclin-D1	CCND1	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	AKT	AKT1	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	AMPK	PRKAA1	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	AMPK	PRKAA2	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	AMPK	PRKAB1	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	protein kinase B	PTK2B	phosphorylation
+NCT02056691	Measuring changes in molecular markers for the effects of exercise and/or diet on AMPK/mTOR signalling pathway (phosphorylated 4EBP1 (P4EBP1), phosphorylated protein kinase B (PPKB/AKT), and phosphorylated AMPK (PAMPK).	protein kinase B	AKT1	phosphorylation
+NCT02101905	Ratio of phosphorylated (p)EGFR/total EGFR (PD) in tumor tissue	EGFR	EGFR	phosphorylation
+NCT03152786	CREB phosphorylation	CREB	CREB1	phosphorylation
+NCT03531996	Longitudinal evaluation of the STAT5 Phosphorylation Index	STAT5	STAT5A	phosphorylation
+NCT03531996	Longitudinal evaluation of the STAT5 Phosphorylation Index	STAT5	STAT5B	phosphorylation
+NCT03630497	NDRG1 phosphorylation in PBMCs	NDRG1	NDRG1	phosphorylation
+NCT03796884	VASP serine 239 phosphorylation	VASP	VASP	phosphorylation
+NCT03811717	total and phosphorylated Akt/Protein Kinase B	Protein Kinase B	PTK2B	phosphorylation
+NCT03811717	total and phosphorylated Akt/Protein Kinase B	Protein Kinase B	AKT1	phosphorylation
+NCT03860870	mTOR phosphorylation in vastus lateralis biopsies	mTOR	MTOR	phosphorylation
+NCT04554771	Phosphorylated STAT3 and stromal abundance measured by immunohistochemistry in formalin-fixed paraffin-embedded tumor tissue	STAT3	STAT3	phosphorylation
+NCT05012618	Phosphorylation level of ERK protein (pERK) in tumor tissues biomarkers as applicable in tumor tissues	ERK protein	MAPK1	phosphorylation
+NCT05016557	mTOR phosphorylation	mTOR	MTOR	phosphorylation
+NCT05107219	Vasodilator-stimulated phosphoprotein (VASP) phosphorylation in normal appearing duodenal mucosa	Vasodilator-stimulated phosphoprotein	VASP	phosphorylation
+NCT05107219	Vasodilator-stimulated phosphoprotein (VASP) phosphorylation in normal appearing duodenal mucosa	VASP	VASP	phosphorylation
+NCT00416403	Blood and serum markers, including C-reactive protein, cleaved caspase 3, HER2, CD68, macrophages and immunoregulatory CD25 T cells, estrogen and progesterone receptors, mRNA, low-density lipoprotein, and cholesterol	C-reactive protein	CRP	protein
+NCT00805181	Blood and urine biomarkers (procalcitonin, C-reactive protein, SIGNATURE(TM) test, pyuria	C-reactive protein	CRP	protein
+NCT00976599	Matrix Metallopeptidase 3 (MMP3), Osteocalcin and Osteopontin Levels at 1 Hour Post-dose on Day 28	Matrix Metallopeptidase 3	MMP3	protein
+NCT00976599	Matrix Metallopeptidase 3 (MMP3), Osteocalcin and Osteopontin Levels at 1 Hour Post-dose on Day 28	MMP3	MMP3	protein
+NCT00976599	Matrix Metallopeptidase 3 (MMP3), Osteocalcin and Osteopontin Levels at 1 Hour Post-dose on Day 28	Osteocalcin	BGLAP	protein
+NCT00976599	Matrix Metallopeptidase 3 (MMP3), Osteocalcin and Osteopontin Levels at 1 Hour Post-dose on Day 28	Osteopontin	SPP1	protein
+NCT00998062	Biomarkers: Interleukines 6 and 10, oxidized LDL, VCAM, ICAM, TNF alpha, neopterin, fibrinogen, lp(a), MMP 9 Apo A, Apo B, adiponectin, leptin, resistin, and yet other	adiponectin	ADIPOQ	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	Alanine aminotransferase	GPT	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein. Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	Alanine aminotransferase	GPT	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	Albumin	ALB	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein. Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	Albumin	ALB	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	ALT	GPT	protein
+NCT01225172	Blood and urine samples were obtained at specified times points for laboratory evaluations. Clinical Laboratory Sage Panels included: Hematology: Hemoglobin, Hematocrit, Red blood cell, Total leukocyte count, including differential, Platelet count. Serum Chemistry : Albumin, Aspartate aminotransferase (AST), Alanine aminotransferase (ALT), Alkaline phosphatase (ALK-P), Bilirubin, total (TB). Reflex testing of direct (conjugated) and indirect (unconjugated) bilirubin will be ordered if total bilirubin > 5X ULN, Blood urea nitrogen (BUN or urea), Calcium, Chloride, Cholesterol, Creatinine, serum, Glucose, fasting plasma, Lactate dehydrogenase (LDH), Magnesium, Phosphorus, Potassium, Protein, total, Sodium, Triglycerides, Uric acid Urinalysis, Blood, Glucose, Ketones, Leukocyte esterase, pH, Protein. Laboratory tests were graded using the National Cancer Institute-Common Toxicity Criteria for Adverse Events (CTCAE), Version 4.0 criteria	ALT	GPT	protein
+NCT01243788	Biomarkers: serum Clara cell 16 (CC-16) protein and serum surfactant protein D (SPD)	surfactant protein D	SFTPD	protein
+NCT01590316	Blood and urine biomarkers (brain fatty acid binding protein, neuroketal, and S100β).	fatty acid binding protein	GOT2	protein
+NCT01727791	The following parameters were analyzed for laboratory abnormalities: hematology (hemoglobin, hematocrit, red blood cell count, mean corpuscular volume [MCV], mean corpuscular hemoglobin [MCH], mean corpuscular hemoglobin concentration [MCHC], platelets, white blood cell count, lymphocytes, total neutrophils, basophils, eosinophils, monocytes); liver function (bilirubin, aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, total protein, albumin); renal function (blood urea nitrogen, creatinine, uric acid); electrolytes (sodium, potassium, chloride, calcium, bicarbonate); clinical chemistry (glucose); urinalysis (urine pH, glucose, ketones, protein, urine blood/hemoglobin, nitrite).	alanine aminotransferase	GPT	protein
+NCT01727791	The following parameters were analyzed for laboratory abnormalities: hematology (hemoglobin, hematocrit, red blood cell count, mean corpuscular volume [MCV], mean corpuscular hemoglobin [MCH], mean corpuscular hemoglobin concentration [MCHC], platelets, white blood cell count, lymphocytes, total neutrophils, basophils, eosinophils, monocytes); liver function (bilirubin, aspartate aminotransferase, alanine aminotransferase, alkaline phosphatase, total protein, albumin); renal function (blood urea nitrogen, creatinine, uric acid); electrolytes (sodium, potassium, chloride, calcium, bicarbonate); clinical chemistry (glucose); urinalysis (urine pH, glucose, ketones, protein, urine blood/hemoglobin, nitrite).	albumin	ALB	protein
+NCT02190747	Blood and urine samples for analysis of cartilage, bone, angiogenesis, and inflammation biomarkers were collected. C-reactive protein was analysed as a inflammation biomarker.	C-reactive protein	CRP	protein
+NCT02205333	Laboratory evaluations of blood and urine samples were performed, including hematology (white blood cell [WBC] count with differential, red blood cell [RBC] count, hematocrit, hemoglobin, platelet count, mean corpuscular volume [MCV], and mean corpuscular hemoglobin concentration [MCHC]); serum chemistry (calcium, chloride, magnesium, creatinine, sodium, blood urea nitrogen [BUN], bicarbonate, glucose, aspartate transaminase [AST], total bilirubin, C-reactive protein, gamma-glutamyl transpeptidase [GGT], lactate dehydrogenase, uric acid, potassium, alanine transaminase [ALT], alkaline phosphatase, albumin, total protein, triglycerides, and cholesterol); urinalysis; and coagulation parameters.	alanine transaminase	GPT	protein
+NCT02205333	Laboratory evaluations of blood and urine samples were performed, including hematology (white blood cell [WBC] count with differential, red blood cell [RBC] count, hematocrit, hemoglobin, platelet count, mean corpuscular volume [MCV], and mean corpuscular hemoglobin concentration [MCHC]); serum chemistry (calcium, chloride, magnesium, creatinine, sodium, blood urea nitrogen [BUN], bicarbonate, glucose, aspartate transaminase [AST], total bilirubin, C-reactive protein, gamma-glutamyl transpeptidase [GGT], lactate dehydrogenase, uric acid, potassium, alanine transaminase [ALT], alkaline phosphatase, albumin, total protein, triglycerides, and cholesterol); urinalysis; and coagulation parameters.	albumin	ALB	protein
+NCT02205333	Laboratory evaluations of blood and urine samples were performed, including hematology (white blood cell [WBC] count with differential, red blood cell [RBC] count, hematocrit, hemoglobin, platelet count, mean corpuscular volume [MCV], and mean corpuscular hemoglobin concentration [MCHC]); serum chemistry (calcium, chloride, magnesium, creatinine, sodium, blood urea nitrogen [BUN], bicarbonate, glucose, aspartate transaminase [AST], total bilirubin, C-reactive protein, gamma-glutamyl transpeptidase [GGT], lactate dehydrogenase, uric acid, potassium, alanine transaminase [ALT], alkaline phosphatase, albumin, total protein, triglycerides, and cholesterol); urinalysis; and coagulation parameters.	C-reactive protein	CRP	protein
+NCT02517489	Biomarkers: plasmatic concentration of pro-inflammatory cytokines (IL-6, IL-20, IL-22, IL-22BP, HBD2, TNF) at baseline, day 3 and day 7	IL-6	IL6	protein
+NCT02517489	Biomarkers: plasmatic concentration of pro-inflammatory cytokines (IL-6, IL-20, IL-22, IL-22BP, HBD2, TNF) at baseline, day 3 and day 7	TNF	TNF	protein
+NCT02550665	blood AST/ALT	AST	GOT1	protein
+NCT02550665	blood AST/ALT	AST	GOT2	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	IL-10	IL10	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	IL-1RA	IL1RN	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	IL-6	IL6	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	IL-8	CXCL8	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	MCP-1	CCL2	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	MIP1-beta	CCL4	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	MIP1-beta	CCL4L1	protein
+NCT02629874	Blood plasma levels of TNF-alfa, IL-6 and IL-10, IL-8, IL12-p70, IL-1RA, MCP-1, ICAM, VCAM, MIP1-alfa, MIP1-beta,	MIP1-beta	CCL4L2	protein
+NCT02790489	Blood AST	AST	GOT1	protein
+NCT02790489	Blood AST	AST	GOT2	protein
+NCT02826798	Blood and urine samples were collected at screening for all evaluations with additional blood samples obtained on Days 28, 56, 84, 168, 196, 280, and 336. The following clinical laboratory evaluations were performed: Biochemistry: alanine aminotransferase; aspartate aminotransferase; creatinine; blood urea nitrogen; Hematology: neutrophils, lymphocytes, eosinophils, hemoglobin, platelet count, white blood cell count; Infection status: HIV, hepatitis B, hepatitis C, and cytomegalovirus; and Urinalysis: blood, glucose, protein.	alanine aminotransferase	GPT	protein
+NCT02831673	Blood and/or urine were collected to perform evaluation of renal inflammation biomarkers which included Urine and Serum B2M, Urine Albumin/Creatinine, Urine B2M/Urine Creatinine, Urine Phosphate, Urine Protein/Creatinine, Urine RBP 4 and Urine RBP 4/Urine Creatinine. Baseline value is defined as the latest pre-dose assessment. Ratio to Baseline was calculated as ratio of post-dose visit value over Baseline value. Statistical analysis of changes from baseline were performed on log-transformed data. Results were transformed back via exponential transformation such that treatment comparisons are assessed via odds ratios. Estimated ratio of geometric means (each visit over Baseline) and 95% confidence interval (CI) have been presented.	Albumin	ALB	protein
+NCT02831764	Blood and/or urine were collected to perform evaluation of renal inflammation biomarkers: Urine and Serum B2M, Urine Albumin/Creatinine, Urine B2M/Urine Creatinine, Urine Phosphate, Urine Protein/Creatinine, Urine RBP 4 and Urine RBP 4/Urine Creatinine. Baseline value was the latest pre-dose assessment. Change from Baseline was performed on log-transformed data. Ratio to Baseline was calculated as ratio of post-dose visit value over Baseline value. Geometric mean ratio and 95% CI of geometric mean ratio have been presented. Biomarkers were Adjusted for treatment, Baseline plasma HIV-1 RNA, Baseline CD4+ cell count, age, sex, race, presence of diabetes mellitus, presence of hypertension, loge transformed Baseline biomarker value, treatment and visit interaction, and loge transformed Baseline biomarker value and visit interaction; with visit as the repeated factor.	Albumin	ALB	protein
+NCT02849418	Blood samples were collected for analysis of following clinical chemistry parameters; Albumin, Alkaline Phosphatase (Alk Phosp), Alanine Amino Transferase (ALT), Aspartate Amino Transferase (AST), Direct Bilirubin (Bil), Total Bil, Calcium, Chloride, Creatinine, Glucose, Potassium, Sodium, Total Protein (T Protein), Urea/blood urea nitrogen (BUN) and Uric acid. Participants were counted in the worst case category that their value changes to (Low, Normal or High), unless there is no change in their category. Participants whose value category was unchanged (e.g. High to High) or whose value became normal, are recorded in the 'To Normal or No Change' category. Participants were counted twice if the participant had values that changed 'To Low' and 'To High', so the percentages may not add to 100 percent. Baseline is the latest pre-dose assessment with a non-missing value, including those from unscheduled visits. Only categories with non-zero values have been presented.	Albumin	ALB	protein
+NCT03152617	Blood biochemistry package: Retinol, RBP, Vitamins B, Vid D, methylmalonate, homocysteine, hemoglobulin, MCV, MCH, MCHC, reticulocytes, iron, transferrin, ferritin , Zn, S-Albumin, creatinine, blood lipid profile, ALP; reported value will be number of patients with one or more abnormal laboratory value(-s).	transferrin	TF	protein
+NCT03287882	Biomarkers: serum ferritin, serum transferrin receptor, hepcidin, serum retinol, serum 25(OH)D, alpha-glycolytic protein, C-reactive protein (women)	C-reactive protein	CRP	protein
+NCT03287882	Biomarkers: serum ferritin, serum transferrin receptor, hepcidin, serum retinol, serum 25(OH)D, alpha-glycolytic protein, C-reactive protein (women)	transferrin receptor	TF	protein
+NCT03287882	Biomarkers: serum ferritin, serum transferrin receptor, hepcidin, serum retinol, serum 25(OH)D, alpha-glycolytic protein, C-reactive protein (women)	transferrin receptor	TFRC	protein
+NCT03345407	Blood samples were collected for the analysis of clinical chemistry parameters including: blood urea nitrogen (BUN), creatinine (Crt), glucose (Glu), potassium (Pot), sodium (Sod), calcium (Cal), aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP), total and direct bilirubin, total protein and albumin (Alb). Participants are counted in the worst case category if their value changes to (low, within range or no change, or high). Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in the To w/in Range or No Change category. Participants are counted twice if the participant has values that changed To Low and To High, so the percentages may not add to 100%. Participants with missing baseline value are assumed to have within range value.	alanine aminotransferase	GPT	protein
+NCT03345407	Blood samples were collected for the analysis of clinical chemistry parameters including: blood urea nitrogen (BUN), creatinine (Crt), glucose (Glu), potassium (Pot), sodium (Sod), calcium (Cal), aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP), total and direct bilirubin, total protein and albumin (Alb). Participants are counted in the worst case category if their value changes to (low, within range or no change, or high). Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in the To w/in Range or No Change category. Participants are counted twice if the participant has values that changed To Low and To High, so the percentages may not add to 100%. Participants with missing baseline value are assumed to have within range value.	Alb	ALB	protein
+NCT03345407	Blood samples were collected for the analysis of clinical chemistry parameters including: blood urea nitrogen (BUN), creatinine (Crt), glucose (Glu), potassium (Pot), sodium (Sod), calcium (Cal), aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP), total and direct bilirubin, total protein and albumin (Alb). Participants are counted in the worst case category if their value changes to (low, within range or no change, or high). Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in the To w/in Range or No Change category. Participants are counted twice if the participant has values that changed To Low and To High, so the percentages may not add to 100%. Participants with missing baseline value are assumed to have within range value.	albumin	ALB	protein
+NCT03345407	Blood samples were collected for the analysis of clinical chemistry parameters including: blood urea nitrogen (BUN), creatinine (Crt), glucose (Glu), potassium (Pot), sodium (Sod), calcium (Cal), aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase (ALP), total and direct bilirubin, total protein and albumin (Alb). Participants are counted in the worst case category if their value changes to (low, within range or no change, or high). Participants whose value category was unchanged (e.g., High to High), or whose value became within range, are recorded in the To w/in Range or No Change category. Participants are counted twice if the participant has values that changed To Low and To High, so the percentages may not add to 100%. Participants with missing baseline value are assumed to have within range value.	ALT	GPT	protein
+NCT03441984	Blood samples were collected for the analysis of clinical chemistry parameters including ALT, ALP, AST and CPK. Day -1 was defined as Baseline for clinical chemistry parameters. Change from Baseline value is calculated as the value at the post-dose visit minus the Baseline value.	ALP	ALPL	protein
+NCT03441984	Blood samples were collected for the analysis of clinical chemistry parameters including ALT, ALP, AST and CPK. Day -1 was defined as Baseline for clinical chemistry parameters. Change from Baseline value is calculated as the value at the post-dose visit minus the Baseline value.	AST	GOT1	protein
+NCT03441984	Blood samples were collected for the analysis of clinical chemistry parameters including ALT, ALP, AST and CPK. Day -1 was defined as Baseline for clinical chemistry parameters. Change from Baseline value is calculated as the value at the post-dose visit minus the Baseline value.	AST	GOT2	protein
+NCT03441984	Blood samples were collected for the analysis of clinical chemistry parameters including ALT, ALP, AST and CPK. Day -1 was defined as Baseline for clinical chemistry parameters. Change from Baseline value is calculated as the value at the post-dose visit minus the Baseline value.	CPK	PIK3C2A	protein
+NCT03809598	Blood assay for inflammatory marker IL6	IL6	IL6	protein
+NCT03860714	blood Aspartate aminotransferase （AST）levels	AST	GOT1	protein
+NCT03860714	blood Aspartate aminotransferase （AST）levels	AST	GOT2	protein
+NCT03875625	Blood biochemistry for assessing β-cell function and insulin resistance (IR)	insulin	INS	protein
+NCT03906149	Biomarkers: tumor necrosis factor-alpha	tumor necrosis factor-alpha	TNF	protein
+NCT03906175	Biomarkers: tumor necrosis factor alpha	tumor necrosis factor alpha	TNF	protein
+NCT04171323	blood based biomarker insulin growth factor-1 (IGF-1), IGF binding protein-1 (IGFBP1) and IGFBP-2	insulin	INS	protein
+NCT04491240	Blood biochemistry C reactive protein level in serum.	C reactive protein	CRP	protein
+NCT04505059	Blood Biomarker (CRP)	CRP	CRP	protein
+NCT04510324	Blood and urine analysis will be performed to determine c-reactive protein levels after each intervention	c-reactive protein	CRP	protein
+NCT04564924	Blood biochemistry ：the ALP、PTH、25-OH VitD、osteocalcin、T-P1NP and β-CTX were used to detect bone metabolism	PTH	PTRH1	protein
+NCT04564924	Blood biochemistry ：the ALP、PTH、25-OH VitD、osteocalcin、T-P1NP and β-CTX were used to detect bone metabolism	PTH	PTH	protein
+NCT04572360	Blood Biochemistry Tests - Serum Levels of Insulin (pmol/l)	Insulin	INS	protein
+NCT04572360	Blood Biochemistry Tests - Prothrombin Time (seconds)	Prothrombin	F2	protein
+NCT04602442	Blood biochemistry (CRP)	CRP	CRP	protein
+NCT04761406	Blood AST level (U/l)	AST	GOT1	protein
+NCT04761406	Blood AST level (U/l)	AST	GOT2	protein
+NCT04761913	Blood Biomarker associated with a cytokine storm - C-Reactive Protein (measured in mg/L)	C-Reactive Protein	CRP	protein
+NCT04780490	Blood ANP concentration will be determined using an enzyme-linked immunosorbent assay kit	ANP	NPPA	protein
+NCT04863313	Blood AST concentration will be measured after an overnight fast.	AST	GOT1	protein
+NCT04863313	Blood AST concentration will be measured after an overnight fast.	AST	GOT2	protein
+NCT05146869	Blood biochemistry test includes alanine aminotransferase, aspartate aminotransferase, amylase, alkaline phosphatase and in U/L.	alanine aminotransferase	GPT	protein
+NCT05146869	Blood biochemistry test includes total protein, albumin and albumin in g/L.	albumin	ALB	protein

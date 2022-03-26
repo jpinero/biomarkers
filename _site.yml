@@ -1,0 +1,22 @@
+name: "R Markdown Website Template"
+navbar:
+  title: "Site Template"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Page 1"
+      href: page_1.html
+    - text: "Menu"
+      menu:
+        - text: "Menu 1"
+          href: menu_1.html
+  right:
+    - icon: ion-social-github
+      href: https://github.com
+output_dir: "docs"
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html

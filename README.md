@@ -1,2 +1,2 @@
-# biomarkers
-Biomarkers from clinical trials
+# rmarkdown-website-template
+Files to create a simple website using R Markdown

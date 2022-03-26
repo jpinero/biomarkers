@@ -1,0 +1,20 @@
+---
+title: "Website template page 1"
+---
+
+# Title
+
+This is `page_1` for the website template.
+
+## More info
+
+Like the `index.Rmd` file, this is a regular R Markdown document. 
+Put anything you like here, including R code:
+
+```{r}
+hist(rnorm(500))
+```
+
+## About the YAML header
+
+Note that the YAML header is pretty minimal--just a title.
