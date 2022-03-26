@@ -1,91 +1,73 @@
 ---
-title: "Vignette Title"
+title: "Biomarkers  in Clinical Trials"
 author:
-- name: First Author
-  affiliation: First Author's Affiliation
-- name: Second Author
-  affiliation: Second Author's Affiliation
-  email: corresponding@author.com
+  - name: Janet Piñero
+    email: janet.pinero@disgenetplus.com
+    affiliation: MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain
+  - name: Pablo S. Rodriguez
+    email: prodriguez1@imim.es 
+    affiliation:  Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain
+  - name: Francesco Ronzano
+    email: francesco.ronzano@upf.edu
+    affiliation: 
+  - name: Jordi Valls
+    email: jordi.valls@disgenetplus.com
+    affiliation: MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain
+  - name: Pablo Acuosto
+    email: pablo.acuosto@upf.edu
+    affiliation: MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain
+  - name: Ferran Sanz
+    email: ferran.sanz@disgenetplus.com
+    affiliation: MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain
+  - name: Laura Furlong
+    email: laura.furlong@disgenetplus.com
+    affiliation: MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain
 package: packageName
 output:
   BiocStyle::html_document
 abstract: |
-  Description of your vignette
+  Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 60% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
+  
 vignette: |
   %\VignetteIndexEntry{Vignette Title}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+
+
+bibliography: bibliography.bib
 ---
 
-# Getting started
+# Introduction
 
-To enable the _Bioconductor_ style in your R Markdown vignette you need to include the following in the `DESCRIPTION` file:
+In these last two decades, biomarkers have gained prominence in drug discovery, development, and approval processes [@Gromova2020]. Biomarkers may also provide insights on disease prognosis, progression, and may be used to monitor the efficacy and safety of the therapy. Biomarkers may be simple molecules such as metabolites (blood lactate levels following exercise), carbohydrates (glucose for diabetes mellitus or galactomannan, used to diagnose invasive aspergillosis infections in humans), or peptides, and proteins (such as insulin, hemoglobin, prostate-specific antigen, and C-reactive protein). Biomarkers also include cells, histological data, and genetic markers. Genetic markers encompass single genes, small collections of three or four genes, and large collections (arrays) of genes (For example the pam50 signature for breast cancer [@Bernard2009]. Genetic markers include classical mRNA, as well as micro-RNA (miRNA). More complex biomarkers are cells such as platelets, particles such as low-density lipoprotein (LDL) cholesterol for assessing risk for atherosclerosis, histological data, T cells, and autoantibodies, or even physiological variables, such as blood pressure.  
 
-    VignetteBuilder: knitr
-    Suggests: BiocStyle, knitr, rmarkdown
-
-
-# Style macros
-
-_BiocStyle_ introduces the following macros for referring to _R_ packages:
+Typically, biomarkers can be measured in the blood or other biological fluids. Nevertheless, more recently, the detection of alterations in the mRNA levels of genes, or their methylation level, or the presence of SNPs have emerged as new types of biomarkers [@Sinnott2021;@Sorokin2020;@miura_serum_2008;@Bock2016].   
+Biomarkers are key measurements of outcomes both in basic research and clinical studies, and are frequently used in clinical studies [@Strimbu2010] as “surrogate endpoints”. A surrogate endpoint is a biomarker that is intended to serve as a substitute for a clinically meaningful endpoint and is expected to predict the effect of a therapeutic intervention. While numerous laboratory biomarkers may be associated with a particular disease state, the term ‘surrogate’ indicates the ability of a biomarker to provide information about the clinical prognosis or efficacy of a therapy.   
+The [Clinical Trials database](https://clinicaltrials.gov/) (CT.gov from now on) is a rich source of information about the use of biomarkers in clinical studies. The case for using text mining to standardize and normalize the information in clinical trials is particularly compelling as the industry looks to cut the costs and time required for trials. Text mining approaches may assist in the identification of the biomarkers used in a therapeutic area or a specific disease, discover biomarkers trends across all the clinical studies recorded at CT.gov, or assess the specificity of a biomarker, among other applications.   
+In this contribution, we present the results of text mining CT.gov records to identify and standardize information about disease biomarkers. For this, we have developed a pipeline to identify biomarkers mentioned in different sections of a clinical trial record and classify them into different categories. We have created a corpus of CT.gov records annotated with different biomarker types, which was used to train a machine learning model that classifies biomarkers according to the following categories: (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2)  genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens.  
 
 
+# Methods
+
+We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative] (https://aact.ctti-clinicaltrials.org/download, downloaded on December 17, 2021). 
+We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes  sections of the Clinical Trials. 
+Clinical trials provide the name of the conditions investigated in the trial. Conditions are the diseases, disorders, syndromes, illnesss, or injuries being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks. Data submitters (study sponsors or their designees) are requested to provide Condition and Keywords data as MeSH terms when registering a study. Additionally, an NLM algorithm also evaluates studies and applies MeSH terms according to a series of rules [@Tasneem2012]. We used the conditions annotated by the algorithm, and we normalized the names provided in the files to MeSH identifiers  using the UMLS Metathesaurus [@Bodenreider2004].
+
+We used the [DISGENET plus](https://beta.disgenetplus.com/) text mining tool [@Pinero2019] that improves the detection and normalization of mentions of genes by relying on deep learning models complemented by an extensive set of custom heuristics, and by integrating analysis modules to consistently detect and characterize distinctive linguistic traits of biomedical texts like the use of acronyms.  
+
+We then selected 1,000 examples of the sentences with mentions of biomarkers, and classified them into 6 different categories: : (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2)  genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens.  We used this corpus to train a random forest classifier to then assign the biomarker types to the rest of the data. We use the rpart package, and the library tidymodels in R. We performed hyperparameter tuning for the number of tokens, and for the number of trees, number of members, and number of features (mtry). We provide more details of the implementation, along with a sample of the developed corpus in [this github repositoy](https://github.com/jpinero/biomarkers).
 
 
-# Figures
 
-Assign captions to figures in the code chunk option `fig.cap` to automatically number them, and to be able to reference them, see Figure \@ref(fig:plot). The figure label is generated from the code chunk label by prefixing it with `fig:`.
+# Results
+Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 1 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. The diseases that have more assessed biomarkers are Diabetes mellitus 
 
-```{r plot, fig.cap="Regular figure. The first sentence of the figure caption is automatically emphasized to serve as figure title.", echo=FALSE}
-plot(cars)
+
+
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.'}
+knitr::include_graphics("images/Figure_therapeutic_area_conditions.png")
 ```
 
-Small and wide figures can be specified by `fig.small` and `fig.wide` code chunk options.
 
-```{r small, fig.cap="Small figure. A plot produced by a code chunk with option `fig.small = TRUE`.", fig.small=TRUE, echo=FALSE}
-plot(cars)
-```
-
-```{r wide, fig.cap="Wide figure. A plot produced by a code chunk with option `fig.wide = TRUE`.", fig.wide=TRUE, echo=FALSE}
-plot(cars)
-```
-
-
-# Equations
-
-To number and reference equations, put them in equation environments and assign labels to them, see Equation \@ref(eq:binom).
-
-\begin{equation}
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  (\#eq:binom)
-\end{equation}
-
-
-# Tables
-
-Like figures, tables with captions will also be numbered and can be referenced, see Table \@ref(tab:table).
-
-Fruit   | Price
-------- | -----
-bananas | 1.2
-apples  | 1.0
-oranges | 2.5
-
-: (\#tab:table) A simple table. With caption.
-
-
-# Cross-references
-
-Apart from referencing figures (Section \@ref(figures)), tables (Section \@ref(tables)), and equations (Section \@ref(equations)), you can also use the same syntax to refer to sections by their default labels generated by pandoc.
-
-
-# Side notes
-
-Footnotes are displayed as side notes on the right margin^[this is a side note entered as a footnote], which has the advantage that they appear close to the place where they are defined.
-
-
-# Session info {.unnumbered}
-
-```{r sessionInfo, echo=FALSE}
-sessionInfo()
-```
+Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation). The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin. AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker.
+Figure 1 shows a selection of the top biomarkers for infections (C01), Neoplasms (C04), Cardiovascular diseases (C14), and Mental disorders (F03). There are several biomarkers that are specific to a particular therapeutic area, for example, ACE2 for infections, MGMT, KRAS, BRAF in cancer, VASP in cardiovascular diseases, and OPRM1, APOE, and COMT for mental disorders.  Other biomarkers are shared across therapeutic indications, such as hemoglobin. 

@@ -11,9 +11,9 @@
 
 
 
-<title>Vignette Title</title>
+<title>Biomarkers in Clinical Trials</title>
 
-<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -55,7 +55,6 @@ if (window.hljs) {
 </script>
 
 
-
 <style type="text/css">
   p.abstract{
     text-align: center;
@@ -68,6 +67,28 @@ if (window.hljs) {
 </style>
 
 
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 
 
@@ -92,9 +113,6 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
-}
-details > summary > p:only-child {
-  display: inline;
 }
 pre code {
   padding: 0;
@@ -247,7 +265,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -285,130 +303,98 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Vignette Title</h1>
-<h4 class="author">First Author</h4>
+<h1 class="title toc-ignore">Biomarkers in Clinical Trials</h1>
+<h4 class="author">Janet Piñero</h4>
 <address class="author_afil">
-First Author’s Affiliation<br><h4 class="author">Second Author</h4>
+MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:janet.pinero@disgenetplus.com" class="email">janet.pinero@disgenetplus.com</a></a>
+</address>
+<h4 class="author">Pablo S. Rodriguez</h4>
 <address class="author_afil">
-Second Author’s Affiliation<br><a class="author_email" href="mailto:#"><a href="mailto:corresponding@author.com" class="email">corresponding@author.com</a></a>
+Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:prodriguez1@imim.es" class="email">prodriguez1@imim.es</a></a>
+</address>
+<h4 class="author">Francesco Ronzano</h4>
+<a class="author_email" href="mailto:#"><a href="mailto:francesco.ronzano@upf.edu" class="email">francesco.ronzano@upf.edu</a></a>
+</address>
+<h4 class="author">Jordi Valls</h4>
+<address class="author_afil">
+MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:jordi.valls@disgenetplus.com" class="email">jordi.valls@disgenetplus.com</a></a>
+</address>
+<h4 class="author">Pablo Acuosto</h4>
+<address class="author_afil">
+MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:pablo.acuosto@upf.edu" class="email">pablo.acuosto@upf.edu</a></a>
+</address>
+<h4 class="author">Ferran Sanz</h4>
+<address class="author_afil">
+MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:ferran.sanz@disgenetplus.com" class="email">ferran.sanz@disgenetplus.com</a></a>
+</address>
+<h4 class="author">Laura Furlong</h4>
+<address class="author_afil">
+MedBioinformatics Solutions SL, Almogàvers 165, 08018 Barcelona, Spain; Research Programme on Biomedical Informatics (GRIB), IMIM (Hospital del Mar Medical Research Institute), UPF (Pompeu Fabra University), Dr. Aiguader, Barcelona, Spain<br><a class="author_email" href="mailto:#"><a href="mailto:laura.furlong@disgenetplus.com" class="email">laura.furlong@disgenetplus.com</a></a>
 </address>
 <div class="abstract">
 <p class="abstract">Abstract</p>
-<p>Description of your vignette</p>
+<p>Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 60% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.</p>
 </div>
 
 </div>
 
 
-<div id="getting-started" class="section level1">
-<h1>Getting started</h1>
-<p>To enable the <em>Bioconductor</em> style in your R Markdown vignette you need to include the following in the <code>DESCRIPTION</code> file:</p>
-<pre><code>VignetteBuilder: knitr
-Suggests: BiocStyle, knitr, rmarkdown</code></pre>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>In these last two decades, biomarkers have gained prominence in drug discovery, development, and approval processes <span class="citation">(Gromova et al. 2020)</span>. Biomarkers may also provide insights on disease prognosis, progression, and may be used to monitor the efficacy and safety of the therapy. Biomarkers may be simple molecules such as metabolites (blood lactate levels following exercise), carbohydrates (glucose for diabetes mellitus or galactomannan, used to diagnose invasive aspergillosis infections in humans), or peptides, and proteins (such as insulin, hemoglobin, prostate-specific antigen, and C-reactive protein). Biomarkers also include cells, histological data, and genetic markers. Genetic markers encompass single genes, small collections of three or four genes, and large collections (arrays) of genes (For example the pam50 signature for breast cancer <span class="citation">(Bernard et al. 2009)</span>. Genetic markers include classical mRNA, as well as micro-RNA (miRNA). More complex biomarkers are cells such as platelets, particles such as low-density lipoprotein (LDL) cholesterol for assessing risk for atherosclerosis, histological data, T cells, and autoantibodies, or even physiological variables, such as blood pressure.</p>
+<p>Typically, biomarkers can be measured in the blood or other biological fluids. Nevertheless, more recently, the detection of alterations in the mRNA levels of genes, or their methylation level, or the presence of SNPs have emerged as new types of biomarkers <span class="citation">(Sinnott-Armstrong et al. 2021; Sorokin et al. 2020; Miura, Hasegawa, and Shiota 2008; Bock et al. 2016)</span>.<br />
+Biomarkers are key measurements of outcomes both in basic research and clinical studies, and are frequently used in clinical studies <span class="citation">(Strimbu and Tavel 2010)</span> as “surrogate endpoints.” A surrogate endpoint is a biomarker that is intended to serve as a substitute for a clinically meaningful endpoint and is expected to predict the effect of a therapeutic intervention. While numerous laboratory biomarkers may be associated with a particular disease state, the term ‘surrogate’ indicates the ability of a biomarker to provide information about the clinical prognosis or efficacy of a therapy.<br />
+The <a href="https://clinicaltrials.gov/">Clinical Trials database</a> (CT.gov from now on) is a rich source of information about the use of biomarkers in clinical studies. The case for using text mining to standardize and normalize the information in clinical trials is particularly compelling as the industry looks to cut the costs and time required for trials. Text mining approaches may assist in the identification of the biomarkers used in a therapeutic area or a specific disease, discover biomarkers trends across all the clinical studies recorded at CT.gov, or assess the specificity of a biomarker, among other applications.<br />
+In this contribution, we present the results of text mining CT.gov records to identify and standardize information about disease biomarkers. For this, we have developed a pipeline to identify biomarkers mentioned in different sections of a clinical trial record and classify them into different categories. We have created a corpus of CT.gov records annotated with different biomarker types, which was used to train a machine learning model that classifies biomarkers according to the following categories: (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2) genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens.</p>
 </div>
-<div id="style-macros" class="section level1">
-<h1>Style macros</h1>
-<p><em>BiocStyle</em> introduces the following macros for referring to <em>R</em> packages:</p>
+<div id="methods" class="section level1">
+<h1>Methods</h1>
+<p>We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative] (<a href="https://aact.ctti-clinicaltrials.org/download" class="uri">https://aact.ctti-clinicaltrials.org/download</a>, downloaded on December 17, 2021). We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes sections of the Clinical Trials. Clinical trials provide the name of the conditions investigated in the trial. Conditions are the diseases, disorders, syndromes, illnesss, or injuries being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks. Data submitters (study sponsors or their designees) are requested to provide Condition and Keywords data as MeSH terms when registering a study. Additionally, an NLM algorithm also evaluates studies and applies MeSH terms according to a series of rules <span class="citation">(Tasneem et al. 2012)</span>. We used the conditions annotated by the algorithm, and we normalized the names provided in the files to MeSH identifiers using the UMLS Metathesaurus <span class="citation">(Bodenreider 2004)</span>.</p>
+<p>We used the <a href="https://beta.disgenetplus.com/">DISGENET plus</a> text mining tool <span class="citation">(Piñero et al. 2019)</span> that improves the detection and normalization of mentions of genes by relying on deep learning models complemented by an extensive set of custom heuristics, and by integrating analysis modules to consistently detect and characterize distinctive linguistic traits of biomedical texts like the use of acronyms.</p>
+<p>We then selected 1,000 examples of the sentences with mentions of biomarkers, and classified them into 6 different categories: : (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2) genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens. We used this corpus to train a random forest classifier to then assign the biomarker types to the rest of the data. We use the rpart package, and the library tidymodels in R. We performed hyperparameter tuning for the number of tokens, and for the number of trees, number of members, and number of features (mtry). We provide more details of the implementation, along with a sample of the developed corpus in <a href="https://github.com/jpinero/biomarkers">this github repositoy</a>.</p>
 </div>
-<div id="figures" class="section level1">
-<h1>Figures</h1>
-<p>Assign captions to figures in the code chunk option <code>fig.cap</code> to automatically number them, and to be able to reference them, see Figure @ref(fig:plot). The figure label is generated from the code chunk label by prefixing it with <code>fig:</code>.</p>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<p>Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 1 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. The diseases that have more assessed biomarkers are Diabetes mellitus</p>
 <div class="figure">
-<img src="index_files/figure-html/plot-1.png" alt="Regular figure. The first sentence of the figure caption is automatically emphasized to serve as figure title." width="672" />
+<img src="images/Figure_therapeutic_area_conditions.png" alt="Figure 1: Clinical Trials by therapeutic area per year." width="100%" />
 <p class="caption">
-Regular figure. The first sentence of the figure caption is automatically emphasized to serve as figure title.
+Figure 1: Clinical Trials by therapeutic area per year.
 </p>
 </div>
-<p>Small and wide figures can be specified by <code>fig.small</code> and <code>fig.wide</code> code chunk options.</p>
-<div class="figure">
-<img src="index_files/figure-html/small-1.png" alt="Small figure. A plot produced by a code chunk with option `fig.small = TRUE`." width="672" />
-<p class="caption">
-Small figure. A plot produced by a code chunk with option <code>fig.small = TRUE</code>.
-</p>
+<p>Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation). The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin. AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker. Figure 1 shows a selection of the top biomarkers for infections (C01), Neoplasms (C04), Cardiovascular diseases (C14), and Mental disorders (F03). There are several biomarkers that are specific to a particular therapeutic area, for example, ACE2 for infections, MGMT, KRAS, BRAF in cancer, VASP in cardiovascular diseases, and OPRM1, APOE, and COMT for mental disorders. Other biomarkers are shared across therapeutic indications, such as hemoglobin.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Bernard2009" class="csl-entry">
+Bernard, Philip S., Joel S. Parker, Michael Mullins, Maggie C. U. Cheung, Samuel Leung, David Voduc, Tammi Vickery, et al. 2009. <span>“<span class="nocase">Supervised risk predictor of breast cancer based on intrinsic subtypes</span>.”</span> <em>Journal of Clinical Oncology : Official Journal of the American Society of Clinical Oncology</em> 27 (8): 1160–67. <a href="https://doi.org/10.1200/JCO.2008.18.1370">https://doi.org/10.1200/JCO.2008.18.1370</a>.
 </div>
-<div class="figure">
-<img src="index_files/figure-html/wide-1.png" alt="Wide figure. A plot produced by a code chunk with option `fig.wide = TRUE`." width="672" />
-<p class="caption">
-Wide figure. A plot produced by a code chunk with option <code>fig.wide = TRUE</code>.
-</p>
+<div id="ref-Bock2016" class="csl-entry">
+Bock, Christoph, Florian Halbritter, Francisco J. Carmona, Sascha Tierling, Paul Datlinger, Yassen Assenov, María Berdasco, et al. 2016. <span>“<span class="nocase">Quantitative comparison of DNA methylation assays for biomarker development and clinical applications</span>.”</span> <em>Nature Biotechnology 2016 34:7</em> 34 (7): 726–37. <a href="https://doi.org/10.1038/nbt.3605">https://doi.org/10.1038/nbt.3605</a>.
+</div>
+<div id="ref-Bodenreider2004" class="csl-entry">
+Bodenreider, Olivier. 2004. <span>“<span class="nocase">The Unified Medical Language System (UMLS): integrating biomedical terminology</span>.”</span> <em>Nucleic Acids Research</em> 32 (January): D267–70. <a href="https://doi.org/10.1093/NAR/GKH061">https://doi.org/10.1093/NAR/GKH061</a>.
+</div>
+<div id="ref-Gromova2020" class="csl-entry">
+Gromova, Mariya, Annegret Vaggelas, Gabriele Dallmann, and Diane Seimetz. 2020. <span>“<span class="nocase">Biomarkers: Opportunities and Challenges for Drug Development in the Current Regulatory Landscape.</span>”</span> <em>Biomarker Insights</em> 15 (December): 1177271920974652. <a href="https://doi.org/10.1177/1177271920974652">https://doi.org/10.1177/1177271920974652</a>.
+</div>
+<div id="ref-miura_serum_2008" class="csl-entry">
+Miura, Norimasa, Junichi Hasegawa, and Goshi Shiota. 2008. <span>“Serum <span>Messenger</span> <span>RNA</span> as a <span>Biomarker</span> and Its <span>Clinical</span> <span>Usefulness</span> in <span>Malignancies</span>.”</span> <em>Clinical Medicine. Oncology</em> 2 (September): 511–27. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3161670/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3161670/</a>.
+</div>
+<div id="ref-Pinero2019" class="csl-entry">
+Piñero, Janet, Juan Manuel Ramírez-Anguita, Josep Saüch-Pitarch, Francesco Ronzano, Emilio Centeno, Ferran Sanz, and Laura I Furlong. 2019. <span>“<span class="nocase">The DisGeNET knowledge platform for disease genomics: 2019 update</span>.”</span> <em>Nucleic Acids Research</em>, November. <a href="https://doi.org/10.1093/nar/gkz1021">https://doi.org/10.1093/nar/gkz1021</a>.
+</div>
+<div id="ref-Sinnott2021" class="csl-entry">
+Sinnott-Armstrong, Nasa, Yosuke Tanigawa, David Amar, Nina Mars, Christian Benner, Matthew Aguirre, Guhan Ram Venkataraman, et al. 2021. <span>“Genetics of 35 Blood and Urine Biomarkers in the <span>UK</span> <span>Biobank</span>.”</span> <em>Nature Genetics</em> 53 (2): 185–94. <a href="https://doi.org/10.1038/s41588-020-00757-z">https://doi.org/10.1038/s41588-020-00757-z</a>.
+</div>
+<div id="ref-Sorokin2020" class="csl-entry">
+Sorokin, Maxim, Kirill Ignatev, Elena Poddubskaya, Uliana Vladimirova, Nurshat Gaifullin, Dmitriy Lantsov, Andrew Garazha, et al. 2020. <span>“<span>RNA</span> <span>Sequencing</span> in <span>Comparison</span> to <span>Immunohistochemistry</span> for <span>Measuring</span> <span>Cancer</span> <span>Biomarkers</span> in <span>Breast</span> <span>Cancer</span> and <span>Lung</span> <span>Cancer</span> <span>Specimens</span>.”</span> <em>Biomedicines</em> 8 (5): 114. <a href="https://doi.org/10.3390/biomedicines8050114">https://doi.org/10.3390/biomedicines8050114</a>.
+</div>
+<div id="ref-Strimbu2010" class="csl-entry">
+Strimbu, Kyle, and Jorge A. Tavel. 2010. <span>“<span class="nocase">What are biomarkers?</span>”</span> <em>Current Opinion in HIV and AIDS</em> 5 (6): 463–66. <a href="https://doi.org/10.1097/COH.0B013E32833ED177">https://doi.org/10.1097/COH.0B013E32833ED177</a>.
+</div>
+<div id="ref-Tasneem2012" class="csl-entry">
+Tasneem, Asba, Laura Aberle, Hari Ananth, Swati Chakraborty, Karen Chiswell, Brian J. McCourt, and Ricardo Pietrobon. 2012. <span>“<span class="nocase">The Database for Aggregate Analysis of ClinicalTrials.gov (AACT) and Subsequent Regrouping by Clinical Specialty</span>.”</span> <em>PLOS ONE</em> 7 (3): e33677. <a href="https://doi.org/10.1371/JOURNAL.PONE.0033677">https://doi.org/10.1371/JOURNAL.PONE.0033677</a>.
 </div>
 </div>
-<div id="equations" class="section level1">
-<h1>Equations</h1>
-<p>To number and reference equations, put them in equation environments and assign labels to them, see Equation @ref(eq:binom).</p>
-<p><span class="math display">\[\begin{equation}
-  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
-  (\#eq:binom)
-\end{equation}\]</span></p>
-</div>
-<div id="tables" class="section level1">
-<h1>Tables</h1>
-<p>Like figures, tables with captions will also be numbered and can be referenced, see Table @ref(tab:table).</p>
-<table>
-<caption>(#tab:table) A simple table. With caption.</caption>
-<thead>
-<tr class="header">
-<th>Fruit</th>
-<th>Price</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>bananas</td>
-<td>1.2</td>
-</tr>
-<tr class="even">
-<td>apples</td>
-<td>1.0</td>
-</tr>
-<tr class="odd">
-<td>oranges</td>
-<td>2.5</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="cross-references" class="section level1">
-<h1>Cross-references</h1>
-<p>Apart from referencing figures (Section @ref(figures)), tables (Section @ref(tables)), and equations (Section @ref(equations)), you can also use the same syntax to refer to sections by their default labels generated by pandoc.</p>
-</div>
-<div id="side-notes" class="section level1">
-<h1>Side notes</h1>
-<p>Footnotes are displayed as side notes on the right margin<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, which has the advantage that they appear close to the place where they are defined.</p>
-</div>
-<div id="session-info" class="section level1 unnumbered">
-<h1 class="unnumbered">Session info</h1>
-<pre><code>## R version 4.1.0 (2021-05-18)
-## Platform: x86_64-conda-linux-gnu (64-bit)
-## Running under: Ubuntu 20.04.4 LTS
-## 
-## Matrix products: default
-## BLAS/LAPACK: /home/janet/anaconda3/envs/r4_env/lib/libopenblasp-r0.3.15.so
-## 
-## locale:
-##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-##  [3] LC_TIME=es_ES.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=es_ES.UTF-8    LC_MESSAGES=en_US.UTF-8   
-##  [7] LC_PAPER=es_ES.UTF-8       LC_NAME=C                 
-##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-## [11] LC_MEASUREMENT=es_ES.UTF-8 LC_IDENTIFICATION=C       
-## 
-## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  methods   base     
-## 
-## loaded via a namespace (and not attached):
-##  [1] digest_0.6.29   R6_2.5.1        jsonlite_1.8.0  magrittr_2.0.2 
-##  [5] evaluate_0.15   highr_0.9       stringi_1.7.6   rlang_1.0.2    
-##  [9] cli_3.2.0       rstudioapi_0.13 jquerylib_0.1.4 bslib_0.3.1    
-## [13] rmarkdown_2.13  tools_4.1.0     stringr_1.4.0   xfun_0.30      
-## [17] yaml_2.3.5      fastmap_1.1.0   compiler_4.1.0  htmltools_0.5.2
-## [21] knitr_1.38      sass_0.4.1</code></pre>
-</div>
-<div class="footnotes">
-<hr />
-<ol>
-<li id="fn1"><p>this is a side note entered as a footnote<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
-</ol>
 </div>
 
 

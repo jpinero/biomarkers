@@ -1,2 +1,3 @@
-# rmarkdown-website-template
-Files to create a simple website using R Markdown
+# Biomarkers of Clinical Trials
+
+A repository to document the development of the Biomarkers in Clinical Trials website and publication (in preparation)

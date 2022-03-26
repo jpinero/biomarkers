@@ -2,19 +2,17 @@
 title: "Top Conditions"
 ---
 
-# Title
 
-This is `page_1` for the website template.
 
-## More info
+```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 6}
+library(data.table)
+library(DT)
 
-Like the `index.Rmd` file, this is a regular R Markdown document. 
-Put anything you like here, including R code:
+library(tidyr)
+library(dplyr)
 
-```{r}
-hist(rnorm(500))
+conditions <-fread("data/top_conditions.tsv")
+dt <- conditions[ order(-conditions$n.clinical.trials),] 
+datatable(dt , caption = "Table 1: Top 50 diseases in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+
 ```
-
-## About the YAML header
-
-Note that the YAML header is pretty minimal--just a title.

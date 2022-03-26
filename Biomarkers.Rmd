@@ -2,19 +2,16 @@
 title: "Top Biomarkers"
 ---
 
-# Title
 
-This is `page_1` for the website template.
+```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 6}
+library(data.table)
+library(DT)
 
-## More info
+library(tidyr)
+library(dplyr)
 
-Like the `index.Rmd` file, this is a regular R Markdown document. 
-Put anything you like here, including R code:
+biomarkers <-fread("data/top_biomarkers.tsv")
+dt <- biomarkers[ order(-biomarkers$n.clinical.trials),] 
+datatable(dt , caption = "Table 1: Top 50 biomarkers in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
 
-```{r}
-hist(rnorm(500))
 ```
-
-## About the YAML header
-
-Note that the YAML header is pretty minimal--just a title.

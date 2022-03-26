@@ -1,20 +1,19 @@
 ---
-title: "Top pairs"
+title: "Top Pairs of Biomarker-Condition"
 ---
 
-# Title
 
-This is `page_1` for the website template.
+```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 6}
+library(data.table)
+library(DT)
 
-## More info
+library(tidyr)
+library(dplyr)
 
-Like the `index.Rmd` file, this is a regular R Markdown document. 
-Put anything you like here, including R code:
+pairs <-fread("data/top_pairs.tsv")
+dt <- pairs[ order(-pairs$n.clinical.trials),]  %>% select(-NCBI , -MESH)
+dt<- dt %>% mutate(fisher_pvalue = format(fisher, digits=1)) %>% select(-fisher)
 
-```{r}
-hist(rnorm(500))
+datatable(dt , caption = "Table 1: Top 50 pairs biomarker-condition in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+
 ```
-
-## About the YAML header
-
-Note that the YAML header is pretty minimal--just a title.
