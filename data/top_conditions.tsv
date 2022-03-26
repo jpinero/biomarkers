@@ -1,51 +1,51 @@
-MESH	str	TUI	STY	n.clinical.trials	n.pmids	year_initial	year_final	n.biomarkers
-D003920	Diabetes Mellitus	T047	Disease or Syndrome	5457	3963	1999	2021	433
-D003924	Diabetes Mellitus, Non-Insulin-Dependent	T047	Disease or Syndrome	4392	3078	2002	2021	425
-D003922	Diabetes Mellitus, Insulin-Dependent	T047	Disease or Syndrome	1526	840	2000	2021	183
-D011471	Prostatic Neoplasms	T191	Neoplastic Process	1365	518	2000	2021	381
-D001943	Mammary Neoplasms	T191	Neoplastic Process	1187	760	2000	2021	549
-D007674	Kidney Diseases	T047	Disease or Syndrome	1070	547	1999	2021	274
-D001168	Arthritis	T047	Disease or Syndrome	1006	759	2002	2021	265
-D007333	Insulin Resistance	T046	Pathologic Function	935	635	2000	2021	257
-D007938	leukemia	T191	Neoplastic Process	924	474	2001	2021	405
-D002277	Carcinoma	T191	Neoplastic Process	892	337	2003	2021	545
-D007249	Inflammation	T046	Pathologic Function	868	483	2004	2021	479
-D001172	Rheumatoid Arthritis	T047	Disease or Syndrome	838	597	2002	2021	243
-D015658	HIV Infections	T047	Disease or Syndrome	806	668	2001	2021	189
-D009369	Neoplasms	T191	Neoplastic Process	788	313	2000	2021	478
-D000086382	COVID19 (disease)	T047	Disease or Syndrome	782	255	2014	2021	313
-D009765	Obesity	T047	Disease or Syndrome	759	565	2003	2021	258
-D000740	Anemia	T047	Disease or Syndrome	756	290	1999	2021	85
-D051436	Chronic Kidney Insufficiency	T047	Disease or Syndrome	728	363	2002	2021	193
-D006973	Hypertensive disease	T047	Disease or Syndrome	690	411	2000	2021	247
-D050177	Overweight	T033	Finding	676	550	2001	2021	202
-D024821	Metabolic Syndrome X	T047	Disease or Syndrome	651	634	2005	2021	222
-D008175	Lung Neoplasms	T191	Neoplastic Process	639	330	2000	2021	380
-D002318	Cardiovascular Diseases	T047	Disease or Syndrome	602	676	1999	2021	243
-D008223	Lymphoma	T191	Neoplastic Process	602	224	1999	2021	301
-D002289	Non-Small Cell Lung Carcinoma	T191	Neoplastic Process	589	321	2003	2021	284
-D006505	Hepatitis	T047	Disease or Syndrome	586	321	2000	2021	197
-D007239	Infection	T046	Pathologic Function	553	405	2001	2021	242
-D003324	Coronary Artery Disease	T047	Disease or Syndrome	512	494	2002	2021	229
-D006506	Hepatitis A	T047	Disease or Syndrome	501	293	2000	2021	168
-D006333	Heart failure	T047	Disease or Syndrome	482	379	2001	2021	215
-D006470	Hemorrhage	T046	Pathologic Function	460	265	2005	2021	125
-D005234	Fatty Liver	T047	Disease or Syndrome	445	320	2003	2021	171
-D005355	Fibrosis	T046	Pathologic Function	439	239	1999	2021	265
-D007676	Kidney Failure, Chronic	T047	Disease or Syndrome	428	201	1999	2021	194
-D007951	Myeloid Leukemia	T191	Neoplastic Process	409	202	2002	2021	260
-D065626	Non-alcoholic Fatty Liver Disease	T047	Disease or Syndrome	402	259	2003	2021	167
-D008107	Liver diseases	T047	Disease or Syndrome	396	314	2003	2021	192
-D007945	Lymphoid leukemia	T191	Neoplastic Process	388	228	2003	2021	199
-D008545	melanoma	T191	Neoplastic Process	379	176	1999	2021	228
-D011236	Prediabetes syndrome	T047	Disease or Syndrome	374	251	2003	2021	135
-D006526	Hepatitis C	T047	Disease or Syndrome	373	216	2000	2020	124
-D051437	Renal Insufficiency	T047	Disease or Syndrome	369	174	2002	2021	148
-D017202	Myocardial Ischemia	T047	Disease or Syndrome	368	370	2002	2021	185
-D015179	Colorectal Neoplasms	T191	Neoplastic Process	358	124	2002	2021	300
-D010051	ovarian neoplasm	T191	Neoplastic Process	350	177	2002	2021	219
-D003141	Communicable Diseases	T047	Disease or Syndrome	347	236	2001	2021	190
-D006937	Hypercholesterolemia	T047	Disease or Syndrome	344	252	1999	2021	109
-D000544	Alzheimer's Disease	T047	Disease or Syndrome	324	207	2003	2021	150
-D006967	Hypersensitivity	T046	Pathologic Function	322	212	2005	2021	238
-D006331	Heart Diseases	T047	Disease or Syndrome	320	273	1999	2021	178
+MESH	name	Type	n.clinical.trials	n.pmids	year_initial	year_final	n.biomarkers
+D003920	Diabetes Mellitus	Disease or Syndrome	5457	3963	1999	2021	433
+D003924	Diabetes Mellitus, Non-Insulin-Dependent	Disease or Syndrome	4392	3078	2002	2021	425
+D003922	Diabetes Mellitus, Insulin-Dependent	Disease or Syndrome	1526	840	2000	2021	183
+D011471	Prostatic Neoplasms	Neoplastic Process	1365	518	2000	2021	381
+D001943	Mammary Neoplasms	Neoplastic Process	1187	760	2000	2021	549
+D007674	Kidney Diseases	Disease or Syndrome	1070	547	1999	2021	274
+D001168	Arthritis	Disease or Syndrome	1006	759	2002	2021	265
+D007333	Insulin Resistance	Pathologic Function	935	635	2000	2021	257
+D007938	leukemia	Neoplastic Process	924	474	2001	2021	405
+D002277	Carcinoma	Neoplastic Process	892	337	2003	2021	545
+D007249	Inflammation	Pathologic Function	868	483	2004	2021	479
+D001172	Rheumatoid Arthritis	Disease or Syndrome	838	597	2002	2021	243
+D015658	HIV Infections	Disease or Syndrome	806	668	2001	2021	189
+D009369	Neoplasms	Neoplastic Process	788	313	2000	2021	478
+D000086382	COVID19 (disease)	Disease or Syndrome	782	255	2014	2021	313
+D009765	Obesity	Disease or Syndrome	759	565	2003	2021	258
+D000740	Anemia	Disease or Syndrome	756	290	1999	2021	85
+D051436	Chronic Kidney Insufficiency	Disease or Syndrome	728	363	2002	2021	193
+D006973	Hypertensive disease	Disease or Syndrome	690	411	2000	2021	247
+D050177	Overweight	Finding	676	550	2001	2021	202
+D024821	Metabolic Syndrome X	Disease or Syndrome	651	634	2005	2021	222
+D008175	Lung Neoplasms	Neoplastic Process	639	330	2000	2021	380
+D002318	Cardiovascular Diseases	Disease or Syndrome	602	676	1999	2021	243
+D008223	Lymphoma	Neoplastic Process	602	224	1999	2021	301
+D002289	Non-Small Cell Lung Carcinoma	Neoplastic Process	589	321	2003	2021	284
+D006505	Hepatitis	Disease or Syndrome	586	321	2000	2021	197
+D007239	Infection	Pathologic Function	553	405	2001	2021	242
+D003324	Coronary Artery Disease	Disease or Syndrome	512	494	2002	2021	229
+D006506	Hepatitis A	Disease or Syndrome	501	293	2000	2021	168
+D006333	Heart failure	Disease or Syndrome	482	379	2001	2021	215
+D006470	Hemorrhage	Pathologic Function	460	265	2005	2021	125
+D005234	Fatty Liver	Disease or Syndrome	445	320	2003	2021	171
+D005355	Fibrosis	Pathologic Function	439	239	1999	2021	265
+D007676	Kidney Failure, Chronic	Disease or Syndrome	428	201	1999	2021	194
+D007951	Myeloid Leukemia	Neoplastic Process	409	202	2002	2021	260
+D065626	Non-alcoholic Fatty Liver Disease	Disease or Syndrome	402	259	2003	2021	167
+D008107	Liver diseases	Disease or Syndrome	396	314	2003	2021	192
+D007945	Lymphoid leukemia	Neoplastic Process	388	228	2003	2021	199
+D008545	melanoma	Neoplastic Process	379	176	1999	2021	228
+D011236	Prediabetes syndrome	Disease or Syndrome	374	251	2003	2021	135
+D006526	Hepatitis C	Disease or Syndrome	373	216	2000	2020	124
+D051437	Renal Insufficiency	Disease or Syndrome	369	174	2002	2021	148
+D017202	Myocardial Ischemia	Disease or Syndrome	368	370	2002	2021	185
+D015179	Colorectal Neoplasms	Neoplastic Process	358	124	2002	2021	300
+D010051	ovarian neoplasm	Neoplastic Process	350	177	2002	2021	219
+D003141	Communicable Diseases	Disease or Syndrome	347	236	2001	2021	190
+D006937	Hypercholesterolemia	Disease or Syndrome	344	252	1999	2021	109
+D000544	Alzheimer's Disease	Disease or Syndrome	324	207	2003	2021	150
+D006967	Hypersensitivity	Pathologic Function	322	212	2005	2021	238
+D006331	Heart Diseases	Disease or Syndrome	320	273	1999	2021	178

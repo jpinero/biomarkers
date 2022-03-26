@@ -1,51 +1,51 @@
-NCBI	Symbol	description	type_of_gene	PROTEIN_CLASS_NAMES	year_initial	year_final	n.clinical.trials	n.diseases	n.pmids
-3043	HBB	hemoglobin subunit beta	protein-coding	NA	1999	2021	12072	1471	8168
-3039	HBA1	hemoglobin subunit alpha 1	protein-coding	NA	1999	2021	12067	1469	8170
-3040	HBA2	hemoglobin subunit alpha 2	protein-coding	NA	1999	2021	12067	1470	8169
-3630	INS	insulin	protein-coding	Signaling	2000	2021	6316	650	4735
-1401	CRP	C-reactive protein	protein-coding	Signaling	2001	2021	5367	1051	3518
-3569	IL6	interleukin 6	protein-coding	Signaling	2000	2021	3009	946	1807
-7124	TNF	tumor necrosis factor	protein-coding	Signaling	2002	2021	2359	844	1315
-213	ALB	albumin	protein-coding	Transporter	1999	2021	2228	780	1456
-2875	GPT	glutamic--pyruvic transaminase	protein-coding	Enzyme	2000	2021	2134	763	1389
-2806	GOT2	glutamic-oxaloacetic transaminase 2	protein-coding	Enzyme	2002	2021	1224	617	712
-2641	GCG	glucagon	protein-coding	Signaling	2002	2021	1182	190	858
-2805	GOT1	glutamic-oxaloacetic transaminase 1	protein-coding	Enzyme	2002	2021	1169	582	694
-920	CD4	CD4 molecule	protein-coding	NA	2000	2021	1148	446	857
-354	KLK3	kallikrein related peptidase 3	protein-coding	Enzyme	2000	2021	1116	111	482
-3586	IL10	interleukin 10	protein-coding	Signaling	2003	2021	1111	615	636
-3553	IL1B	interleukin 1 beta	protein-coding	Signaling	2003	2021	996	559	553
-3458	IFNG	interferon gamma	protein-coding	Signaling	2002	2021	879	464	484
-7422	VEGFA	vascular endothelial growth factor A	protein-coding	Signaling	2002	2021	774	490	412
-3576	CXCL8	C-X-C motif chemokine ligand 8	protein-coding	Signaling	2002	2021	752	491	477
-9370	ADIPOQ	adiponectin, C1Q and collagen domain containing	protein-coding	Signaling	2005	2021	733	258	585
-29126	CD274	CD274 molecule	protein-coding	Receptor	2007	2021	681	188	449
-3952	LEP	leptin	protein-coding	Signaling	2003	2021	680	284	618
-3479	IGF1	insulin like growth factor 1	protein-coding	Signaling	2003	2021	623	334	408
-5741	PTH	parathyroid hormone	protein-coding	Signaling	2002	2021	617	216	395
-925	CD8A	CD8a molecule	protein-coding	NA	2001	2021	613	316	295
-2147	F2	coagulation factor II, thrombin	protein-coding	Enzyme	2002	2021	576	408	333
-3558	IL2	interleukin 2	protein-coding	Signaling	1999	2021	574	378	357
-338	APOB	apolipoprotein B	protein-coding	Transporter	2004	2021	453	121	321
-1956	EGFR	epidermal growth factor receptor	protein-coding	Kinase	2003	2021	451	195	196
-2678	GGT1	gamma-glutamyltransferase 1	protein-coding	Enzyme	2000	2021	444	288	323
-4879	NPPB	natriuretic peptide B	protein-coding	NA	2005	2021	434	207	268
-973	CD79A	CD79a molecule	protein-coding	Receptor	2001	2021	426	232	232
-3497	IGHE	immunoglobulin heavy constant epsilon	other	NA	2001	2021	407	136	286
-2152	F3	coagulation factor III, tissue factor	protein-coding	Receptor	2001	2021	404	328	213
-7018	TF	transferrin	protein-coding	Enzyme	2005	2021	404	216	199
-627	BDNF	brain derived neurotrophic factor	protein-coding	Signaling	2005	2021	398	224	248
-4137	MAPT	microtubule associated protein tau	protein-coding	NA	2004	2021	395	233	220
-6347	CCL2	C-C motif chemokine ligand 2	protein-coding	Signaling	2005	2021	386	296	205
-1437	CSF2	colony stimulating factor 2	protein-coding	Signaling	2003	2021	375	281	190
-728441	GGT2	gamma-glutamyltransferase 2	protein-coding	Enzyme	2000	2021	373	253	294
-51738	GHRL	ghrelin and obestatin prepropeptide	protein-coding	NA	2005	2021	363	154	335
-2064	ERBB2	erb-b2 receptor tyrosine kinase 2	protein-coding	Kinase	2003	2021	352	129	231
-249	ALPL	alkaline phosphatase, biomineralization associated	protein-coding	Enzyme	2002	2021	350	245	242
-335	APOA1	apolipoprotein A1	protein-coding	Transporter	2005	2021	317	113	252
-3552	IL1A	interleukin 1 alpha	protein-coding	Signaling	2000	2021	315	333	194
-3605	IL17A	interleukin 17A	protein-coding	Signaling	2007	2021	307	261	159
-3565	IL4	interleukin 4	protein-coding	Signaling	2003	2021	305	277	191
-1081	CGA	glycoprotein hormones, alpha polypeptide	protein-coding	NA	2003	2021	294	163	144
-632	BGLAP	bone gamma-carboxyglutamate protein	protein-coding	NA	1999	2021	294	191	170
-94025	MUC16	mucin 16, cell surface associated	protein-coding	NA	2002	2021	290	87	160
+NCBI	Symbol	description	class	year_initial	year_final	n.clinical.trials	n.diseases	n.pmids
+3043	HBB	hemoglobin subunit beta	NA	1999	2021	12072	1471	8168
+3039	HBA1	hemoglobin subunit alpha 1	NA	1999	2021	12067	1469	8170
+3040	HBA2	hemoglobin subunit alpha 2	NA	1999	2021	12067	1470	8169
+3630	INS	insulin	Signaling	2000	2021	6316	650	4735
+1401	CRP	C-reactive protein	Signaling	2001	2021	5367	1051	3518
+3569	IL6	interleukin 6	Signaling	2000	2021	3009	946	1807
+7124	TNF	tumor necrosis factor	Signaling	2002	2021	2359	844	1315
+213	ALB	albumin	Transporter	1999	2021	2228	780	1456
+2875	GPT	glutamic--pyruvic transaminase	Enzyme	2000	2021	2134	763	1389
+2806	GOT2	glutamic-oxaloacetic transaminase 2	Enzyme	2002	2021	1224	617	712
+2641	GCG	glucagon	Signaling	2002	2021	1182	190	858
+2805	GOT1	glutamic-oxaloacetic transaminase 1	Enzyme	2002	2021	1169	582	694
+920	CD4	CD4 molecule	NA	2000	2021	1148	446	857
+354	KLK3	kallikrein related peptidase 3	Enzyme	2000	2021	1116	111	482
+3586	IL10	interleukin 10	Signaling	2003	2021	1111	615	636
+3553	IL1B	interleukin 1 beta	Signaling	2003	2021	996	559	553
+3458	IFNG	interferon gamma	Signaling	2002	2021	879	464	484
+7422	VEGFA	vascular endothelial growth factor A	Signaling	2002	2021	774	490	412
+3576	CXCL8	C-X-C motif chemokine ligand 8	Signaling	2002	2021	752	491	477
+9370	ADIPOQ	adiponectin, C1Q and collagen domain containing	Signaling	2005	2021	733	258	585
+29126	CD274	CD274 molecule	Receptor	2007	2021	681	188	449
+3952	LEP	leptin	Signaling	2003	2021	680	284	618
+3479	IGF1	insulin like growth factor 1	Signaling	2003	2021	623	334	408
+5741	PTH	parathyroid hormone	Signaling	2002	2021	617	216	395
+925	CD8A	CD8a molecule	NA	2001	2021	613	316	295
+2147	F2	coagulation factor II, thrombin	Enzyme	2002	2021	576	408	333
+3558	IL2	interleukin 2	Signaling	1999	2021	574	378	357
+338	APOB	apolipoprotein B	Transporter	2004	2021	453	121	321
+1956	EGFR	epidermal growth factor receptor	Kinase	2003	2021	451	195	196
+2678	GGT1	gamma-glutamyltransferase 1	Enzyme	2000	2021	444	288	323
+4879	NPPB	natriuretic peptide B	NA	2005	2021	434	207	268
+973	CD79A	CD79a molecule	Receptor	2001	2021	426	232	232
+3497	IGHE	immunoglobulin heavy constant epsilon	NA	2001	2021	407	136	286
+2152	F3	coagulation factor III, tissue factor	Receptor	2001	2021	404	328	213
+7018	TF	transferrin	Enzyme	2005	2021	404	216	199
+627	BDNF	brain derived neurotrophic factor	Signaling	2005	2021	398	224	248
+4137	MAPT	microtubule associated protein tau	NA	2004	2021	395	233	220
+6347	CCL2	C-C motif chemokine ligand 2	Signaling	2005	2021	386	296	205
+1437	CSF2	colony stimulating factor 2	Signaling	2003	2021	375	281	190
+728441	GGT2	gamma-glutamyltransferase 2	Enzyme	2000	2021	373	253	294
+51738	GHRL	ghrelin and obestatin prepropeptide	NA	2005	2021	363	154	335
+2064	ERBB2	erb-b2 receptor tyrosine kinase 2	Kinase	2003	2021	352	129	231
+249	ALPL	alkaline phosphatase, biomineralization associated	Enzyme	2002	2021	350	245	242
+335	APOA1	apolipoprotein A1	Transporter	2005	2021	317	113	252
+3552	IL1A	interleukin 1 alpha	Signaling	2000	2021	315	333	194
+3605	IL17A	interleukin 17A	Signaling	2007	2021	307	261	159
+3565	IL4	interleukin 4	Signaling	2003	2021	305	277	191
+1081	CGA	glycoprotein hormones, alpha polypeptide	NA	2003	2021	294	163	144
+632	BGLAP	bone gamma-carboxyglutamate protein	NA	1999	2021	294	191	170
+94025	MUC16	mucin 16, cell surface associated	NA	2002	2021	290	87	160

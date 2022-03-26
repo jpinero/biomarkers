@@ -1,4 +1,4 @@
-Symbol	MESH	NCBI	str	n.clinical.trials	year_initial	year_final	npmids	fisher
+Symbol	MESH	NCBI	name	n.clinical.trials	year_initial	year_final	npmids	fisher
 HBA1	D003920	3039	Diabetes Mellitus	4066	2000	2021	2950	0
 HBA2	D003920	3040	Diabetes Mellitus	4064	2000	2021	2948	0
 HBB	D003920	3043	Diabetes Mellitus	4064	2000	2021	2948	0

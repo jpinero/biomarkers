@@ -10,6 +10,8 @@ navbar:
       href: Conditions.html  
     - text: "Top Pairs"
       href: Pairs.html  
+    - text: "Liver Failure"
+      href: Liver.html  
   right:
     - icon: ion-social-github
       href: https://github.com

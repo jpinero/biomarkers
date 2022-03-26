@@ -25,6 +25,7 @@ author:
 package: packageName
 output:
   BiocStyle::html_document
+css: custom-css.css
 abstract: |
   Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 60% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
   
@@ -49,9 +50,9 @@ In this contribution, we present the results of text mining CT.gov records to id
 
 # Methods
 
-We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative] (https://aact.ctti-clinicaltrials.org/download, downloaded on December 17, 2021). 
-We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes  sections of the Clinical Trials. 
-Clinical trials provide the name of the conditions investigated in the trial. Conditions are the diseases, disorders, syndromes, illnesss, or injuries being studied. On ClinicalTrials.gov, conditions may also include other health-related issues, such as lifespan, quality of life, and health risks. Data submitters (study sponsors or their designees) are requested to provide Condition and Keywords data as MeSH terms when registering a study. Additionally, an NLM algorithm also evaluates studies and applies MeSH terms according to a series of rules [@Tasneem2012]. We used the conditions annotated by the algorithm, and we normalized the names provided in the files to MeSH identifiers  using the UMLS Metathesaurus [@Bodenreider2004].
+We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative] (https://aact.ctti-clinicaltrials.org/download), on December 17, 2021. We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes  sections of the Clinical Trials.  
+
+Clinical trials provide the name of the conditions investigated in the trial. Conditions are the diseases, disorders, syndromes, illnesss, or injuries being studied, that are annotated using an NLM algorithm [@Tasneem2012]. We used the conditions annotated by the algorithm, and we normalized the names provided in the files to MeSH identifiers using the UMLS Metathesaurus [@Bodenreider2004].
 
 We used the [DISGENET plus](https://beta.disgenetplus.com/) text mining tool [@Pinero2019] that improves the detection and normalization of mentions of genes by relying on deep learning models complemented by an extensive set of custom heuristics, and by integrating analysis modules to consistently detect and characterize distinctive linguistic traits of biomedical texts like the use of acronyms.  
 
@@ -60,14 +61,101 @@ We then selected 1,000 examples of the sentences with mentions of biomarkers, an
 
 
 # Results
-Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 1 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. The diseases that have more assessed biomarkers are Diabetes mellitus 
-
+Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 1 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. 
 
 
 ```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.'}
 knitr::include_graphics("images/Figure_therapeutic_area_conditions.png")
 ```
 
+Figure 2 shows the number of biomarkers  across all therapeutic areas in these 20 years. 
+
+
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.'}
+knitr::include_graphics("images/Figure_therapeutic_area_number_of_genes.png")
+```
+
+
+```{r, echo=FALSE, fig.width=6, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(plotly)
+
+dat <- readRDS("data/data_for_plots.rds")
+ 
+
+library(ggpubr)
+
+p<- ggdotchart(dat, x = "Biomarker Type", y = "percent",
+           color = "Biomarker Type",                                # Color by groups
+        #   palette = c("#00AFBB", "#E7B800", "#FC4E07"), # Custom color palette
+           sorting = "ascending",                        # Sort value in descending order
+           add = "segments",                             # Add segments from y = 0 to dots
+            rotate = TRUE,                                # Rotate vertically
+           group = "Biomarker Type",                                # Order by groups
+           dot.size = 10,                                 # Large dot size
+           label = dat$n,                        # Add mpg values as dot labels
+           font.label = list(color = "white", size = 8, 
+                             vjust = 0.5),               # Adjust label parameters
+           ggtheme = theme_pubr()                        # ggplot2 theme
+           ) +theme(legend.position="none")
+
+plotly::ggplotly(p)
+
+
+```
+
+
 
 Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation). The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin. AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker.
+
 Figure 1 shows a selection of the top biomarkers for infections (C01), Neoplasms (C04), Cardiovascular diseases (C14), and Mental disorders (F03). There are several biomarkers that are specific to a particular therapeutic area, for example, ACE2 for infections, MGMT, KRAS, BRAF in cancer, VASP in cardiovascular diseases, and OPRM1, APOE, and COMT for mental disorders.  Other biomarkers are shared across therapeutic indications, such as hemoglobin. 
+
+
+## Liver Failure example
+
+
+
+```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 8}
+library(data.table)
+library(dplyr)
+library(tidyr)
+library(ggrepel)
+liver <-fread("data/liver_biomarkers.tsv")
+
+
+dat <-  liver %>% select(nct_id,date,   Symbol) %>% unique()
+
+dat <-dat %>% 
+  group_by(Symbol) %>%
+  mutate(
+    MinYear = min(date, na.rm = T)
+  ) %>% select(-date) %>% unique()
+
+tt <- dat %>%  group_by( Symbol  ) %>%   summarise(nclinicaltrials = n_distinct(nct_id)) %>% 
+  arrange(desc(nclinicaltrials)) %>% head(50)   
+
+dat <- merge(dat, tt, by = c("Symbol")) 
+dat <- dat %>% select(-nct_id) %>% unique() %>%  arrange(MinYear) 
+ 
+dat$id <- c(1:nrow(dat))
+
+ ggplot(dat, aes(x= as.Date(MinYear), y= id, size = nclinicaltrials, label=Symbol)) + 
+  geom_point( pch=21 )   + 
+  geom_text_repel(aes(label = Symbol),
+                  size = 3.5, max.overlaps = 20) +theme_bw(base_size = 12) + 
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y")+
+ ylab("Biomarkers for Liver Failure ") + xlab("Year of 1st trial") +
+  labs(size = "N Cts")  + theme(legend.position="none") +
+  scale_shape(guide="none") +
+  scale_fill_discrete(guide="none")+
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        legend.title=element_text(size=9), 
+        legend.text=element_text(size=9))
+  
+
+ 
+```
+
+
+# References
+
