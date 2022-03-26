@@ -11,9 +11,9 @@
 
 
 
-<title>index.html</title>
+<title>Vignette Title</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -56,6 +56,17 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+  p.abstract{
+    text-align: center;
+    font-weight: bold;
+  }
+  div.abstract{
+    margin: auto;
+    width: 90%;
+  }
+</style>
+
 
 
 
@@ -81,6 +92,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,12 +247,12 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Site Template</a>
+      <a class="navbar-brand" href="index.html">Biomarkers of Clinical Trials</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -246,19 +260,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="page_1.html">Page 1</a>
+  <a href="Biomarkers.html">Biomarkers</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Menu
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="menu_1.html">Menu 1</a>
-    </li>
-  </ul>
+<li>
+  <a href="Conditions.html">Conditions</a>
+</li>
+<li>
+  <a href="Pairs.html">Top Pairs</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -277,32 +285,132 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">Vignette Title</h1>
+<h4 class="author">First Author</h4>
+<address class="author_afil">
+First Author’s Affiliation<br><h4 class="author">Second Author</h4>
+<address class="author_afil">
+Second Author’s Affiliation<br><a class="author_email" href="mailto:#"><a href="mailto:corresponding@author.com" class="email">corresponding@author.com</a></a>
+</address>
+<div class="abstract">
+<p class="abstract">Abstract</p>
+<p>Description of your vignette</p>
+</div>
 
 </div>
 
 
-<div id="title" class="section level1">
-<h1>Title</h1>
-<p>This is the home page for a template website you can build yourself.</p>
-<div id="more-info" class="section level2">
-<h2>More info</h2>
-<p>This is a regular R Markdown document. Put anything you like here, including R code.</p>
+<div id="getting-started" class="section level1">
+<h1>Getting started</h1>
+<p>To enable the <em>Bioconductor</em> style in your R Markdown vignette you need to include the following in the <code>DESCRIPTION</code> file:</p>
+<pre><code>VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, rmarkdown</code></pre>
 </div>
-<div id="about-the-yaml-header" class="section level2">
-<h2>About the YAML header</h2>
-<p>Note that the YAML header is pretty minimal–just a title.</p>
+<div id="style-macros" class="section level1">
+<h1>Style macros</h1>
+<p><em>BiocStyle</em> introduces the following macros for referring to <em>R</em> packages:</p>
 </div>
-<div id="rendering-the-site" class="section level2">
-<h2>Rendering the site</h2>
-<ol style="list-style-type: decimal">
-<li>Run <code>rmarkdown::render_site()</code> from the same directory as the <code>_site.yml</code> file.</li>
-<li>View the output in the directory your YAML file specifies in <code>output_dir</code>. The template says: <code>output_dir: "docs"</code> so look in <code>docs/</code>.</li>
-<li>Open the <code>index.html</code> file in your browser to view your handywork.</li>
+<div id="figures" class="section level1">
+<h1>Figures</h1>
+<p>Assign captions to figures in the code chunk option <code>fig.cap</code> to automatically number them, and to be able to reference them, see Figure @ref(fig:plot). The figure label is generated from the code chunk label by prefixing it with <code>fig:</code>.</p>
+<div class="figure">
+<img src="index_files/figure-html/plot-1.png" alt="Regular figure. The first sentence of the figure caption is automatically emphasized to serve as figure title." width="672" />
+<p class="caption">
+Regular figure. The first sentence of the figure caption is automatically emphasized to serve as figure title.
+</p>
+</div>
+<p>Small and wide figures can be specified by <code>fig.small</code> and <code>fig.wide</code> code chunk options.</p>
+<div class="figure">
+<img src="index_files/figure-html/small-1.png" alt="Small figure. A plot produced by a code chunk with option `fig.small = TRUE`." width="672" />
+<p class="caption">
+Small figure. A plot produced by a code chunk with option <code>fig.small = TRUE</code>.
+</p>
+</div>
+<div class="figure">
+<img src="index_files/figure-html/wide-1.png" alt="Wide figure. A plot produced by a code chunk with option `fig.wide = TRUE`." width="672" />
+<p class="caption">
+Wide figure. A plot produced by a code chunk with option <code>fig.wide = TRUE</code>.
+</p>
+</div>
+</div>
+<div id="equations" class="section level1">
+<h1>Equations</h1>
+<p>To number and reference equations, put them in equation environments and assign labels to them, see Equation @ref(eq:binom).</p>
+<p><span class="math display">\[\begin{equation}
+  f\left(k\right) = \binom{n}{k} p^k\left(1-p\right)^{n-k}
+  (\#eq:binom)
+\end{equation}\]</span></p>
+</div>
+<div id="tables" class="section level1">
+<h1>Tables</h1>
+<p>Like figures, tables with captions will also be numbered and can be referenced, see Table @ref(tab:table).</p>
+<table>
+<caption>(#tab:table) A simple table. With caption.</caption>
+<thead>
+<tr class="header">
+<th>Fruit</th>
+<th>Price</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bananas</td>
+<td>1.2</td>
+</tr>
+<tr class="even">
+<td>apples</td>
+<td>1.0</td>
+</tr>
+<tr class="odd">
+<td>oranges</td>
+<td>2.5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="cross-references" class="section level1">
+<h1>Cross-references</h1>
+<p>Apart from referencing figures (Section @ref(figures)), tables (Section @ref(tables)), and equations (Section @ref(equations)), you can also use the same syntax to refer to sections by their default labels generated by pandoc.</p>
+</div>
+<div id="side-notes" class="section level1">
+<h1>Side notes</h1>
+<p>Footnotes are displayed as side notes on the right margin<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, which has the advantage that they appear close to the place where they are defined.</p>
+</div>
+<div id="session-info" class="section level1 unnumbered">
+<h1 class="unnumbered">Session info</h1>
+<pre><code>## R version 4.1.0 (2021-05-18)
+## Platform: x86_64-conda-linux-gnu (64-bit)
+## Running under: Ubuntu 20.04.4 LTS
+## 
+## Matrix products: default
+## BLAS/LAPACK: /home/janet/anaconda3/envs/r4_env/lib/libopenblasp-r0.3.15.so
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=es_ES.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=es_ES.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=es_ES.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=es_ES.UTF-8 LC_IDENTIFICATION=C       
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+##  [1] digest_0.6.29   R6_2.5.1        jsonlite_1.8.0  magrittr_2.0.2 
+##  [5] evaluate_0.15   highr_0.9       stringi_1.7.6   rlang_1.0.2    
+##  [9] cli_3.2.0       rstudioapi_0.13 jquerylib_0.1.4 bslib_0.3.1    
+## [13] rmarkdown_2.13  tools_4.1.0     stringr_1.4.0   xfun_0.30      
+## [17] yaml_2.3.5      fastmap_1.1.0   compiler_4.1.0  htmltools_0.5.2
+## [21] knitr_1.38      sass_0.4.1</code></pre>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>this is a side note entered as a footnote<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
-</div>
 
-<p>CC0 1.0 Universal License</p>
 
 
 

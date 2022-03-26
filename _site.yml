@@ -1,15 +1,15 @@
-name: "R Markdown Website Template"
+name: "Biomarkers of Clinical Trials"
 navbar:
-  title: "Site Template"
+  title: "Biomarkers of Clinical Trials"
   left:
     - text: "Home"
       href: index.html
-    - text: "Page 1"
-      href: page_1.html
-    - text: "Menu"
-      menu:
-        - text: "Menu 1"
-          href: menu_1.html
+    - text: "Biomarkers"
+      href: Biomarkers.html
+    - text: "Conditions"
+      href: Conditions.html  
+    - text: "Top Pairs"
+      href: Pairs.html  
   right:
     - icon: ion-social-github
       href: https://github.com
@@ -18,5 +18,3 @@ output:
   html_document:
     theme: flatly
     highlight: textmate
-    include:
-      after_body: footer.html
