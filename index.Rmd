@@ -27,7 +27,7 @@ output:
   BiocStyle::html_document
 css: custom-css.css
 abstract: |
-  Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 66% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
+  Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 84% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
   
 vignette: |
   %\VignetteIndexEntry{Vignette Title}
@@ -50,7 +50,7 @@ In this contribution, we present the results of text mining CT.gov records to id
 
 # Methods
 
-We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative] (https://aact.ctti-clinicaltrials.org/download), on December 17, 2021. We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes  sections of the Clinical Trials.  
+We downloaded the Clinical trials data from the [Clinical Trials Transformation Initiative](https://aact.ctti-clinicaltrials.org/download), on December 17, 2021. We performed named entity recognition to detect mentions of genes in the outcomes, outcome measurements, and design outcomes  sections of the Clinical Trials.  
 
 Clinical trials provide the name of the conditions investigated in the trial. Conditions are the diseases, disorders, syndromes, illnesss, or injuries being studied, that are annotated using an NLM algorithm [@Tasneem2012]. We used the conditions annotated by the algorithm, and we normalized the names provided in the files to MeSH identifiers using the UMLS Metathesaurus [@Bodenreider2004].
 
@@ -74,10 +74,9 @@ knitr::include_graphics("images/Figure_therapeutic_area_conditions.png")
 
 Figure 3 shows the number of biomarkers  across all therapeutic areas in these 20 years. [Here](Biomarkers.html) is a selection of the top 100 biomarkers by number of clinical trials in the dataset. 
 
-```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 2: Number of biomarkers assessed in Clinical Trials by therapeutic area per year.'}
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 3: Number of biomarkers assessed in Clinical Trials by therapeutic area per year.'}
 knitr::include_graphics("images/Figure_therapeutic_area_number_of_genes.png")
 ```
-
 
 Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation) (Figure 4). 
 
@@ -109,7 +108,8 @@ plotly::ggplotly(p)
 
 ```
 
-The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin (Figure 5). AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker.
+
+Eighty-four percent of the biomarkers are assessed in more than one condition. The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin (Figure 5). AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS,PIK3CA, PTEN, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker. A selection of the top 100 biomarker-condition pairs can be explored [here](Pairs.html)
 
 ```{r, echo=FALSE, out.width="80%",  fig.cap = 'Figure 5: Top 100 biomarkers and number of conditions.'}
 knitr::include_graphics("images/Figure_top100bms.png")
@@ -126,7 +126,7 @@ knitr::include_graphics("images/Figure_timeline.png")
 
 ## Liver Failure example
 
-In Figure 7 we show an example of the 50 most commonly used biomarkers for liver failure. 
+In Figure 7 we show an example of the 50 most commonly used biomarkers for liver failure. All biomarkers for liver failure can be explored [here](Liver.html)
 
 ```{r, warning=FALSE, fig.cap = 'Figure 7: Biomarkers of liver failure.', message=FALSE,echo = FALSE, fig.width = 8}
 library(data.table)
@@ -153,7 +153,7 @@ dat <- dat %>% select(-nct_id) %>% unique() %>%  arrange(MinYear)
 dat$id <- c(1:nrow(dat))
 
  ggplot(dat, aes(x= as.Date(MinYear), y= id, size = nclinicaltrials, label=Symbol)) + 
-  geom_point( pch=21 )   + 
+  geom_point( colour = "#b02c20"  )   + 
   geom_text_repel(aes(label = Symbol),
                   size = 3.5, max.overlaps = 20) +theme_bw(base_size = 12) + 
   scale_x_date(date_breaks = "1 year", date_labels = "%Y")+
