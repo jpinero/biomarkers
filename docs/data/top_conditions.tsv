@@ -49,3 +49,53 @@ D006937	Hypercholesterolemia	Disease or Syndrome	344	252	1999	2021	109
 D000544	Alzheimer's Disease	Disease or Syndrome	324	207	2003	2021	150
 D006967	Hypersensitivity	Pathologic Function	322	212	2005	2021	238
 D006331	Heart Diseases	Disease or Syndrome	320	273	1999	2021	178
+D003863	Mental Depression	Mental or Behavioral Dysfunction	318	227	2004	2021	167
+D009101	Multiple Myeloma	Neoplastic Process	314	173	2003	2021	202
+D001249	Asthma	Disease or Syndrome	313	189	2001	2021	228
+D015431	Weight decreased	Finding	313	219	2004	2021	121
+D012598	Sclerosis	Pathologic Function	310	183	2002	2021	304
+D009190	MYELODYSPLASTIC SYNDROME	Neoplastic Process	309	130	2001	2021	174
+D018149	Glucose Intolerance (disease)	Disease or Syndrome	309	225	2003	2021	100
+D000163	Acquired Immunodeficiency Syndrome	Disease or Syndrome	301	206	2001	2021	113
+D015470	Leukemia, Myelocytic, Acute	Neoplastic Process	298	134	2002	2021	236
+D018798	Iron deficiency anemia	Disease or Syndrome	298	124	2005	2021	57
+D000077216	Carcinoma, Ovarian Epithelial	Neoplastic Process	297	157	2002	2021	196
+D003327	Coronary heart disease	Disease or Syndrome	297	327	2003	2021	153
+D050171	Dyslipidemias	Disease or Syndrome	296	203	2005	2021	130
+D006467	Hemophilia A	Disease or Syndrome	295	125	2005	2021	55
+D029424	Chronic Obstructive Airway Disease	Disease or Syndrome	289	168	2005	2021	175
+D012559	Schizophrenia	Mental or Behavioral Dysfunction	281	141	2004	2021	126
+D054219	Plasma Cell Neoplasm	Neoplastic Process	275	158	2003	2021	191
+D000230	Adenocarcinoma	Neoplastic Process	270	95	2003	2021	208
+D003866	Depressive disorder	Mental or Behavioral Dysfunction	269	175	2005	2021	134
+D014947	Wounds and Injuries	Injury or Poisoning	268	204	2005	2021	188
+D008659	Metabolic Diseases	Disease or Syndrome	263	200	2003	2021	131
+D010024	Osteoporosis	Disease or Syndrome	263	166	1999	2021	113
+D015451	Chronic Lymphocytic Leukemia	Neoplastic Process	263	147	2003	2021	146
+D009362	Neoplasm Metastasis	Neoplastic Process	261	104	1999	2021	173
+D060825	Impaired cognition	Mental or Behavioral Dysfunction	260	207	2005	2021	173
+D011289	Preleukemia	Neoplastic Process	258	115	2001	2021	149
+D011085	Polycystic Ovary Syndrome	Disease or Syndrome	257	188	2005	2021	113
+D054198	Precursor Cell Lymphoblastic Leukemia Lymphoma	Neoplastic Process	255	136	2003	2021	164
+D007238	Infarction	Pathologic Function	253	293	2002	2021	152
+D006943	Hyperglycemia	Disease or Syndrome	248	112	2005	2021	75
+D003424	Crohn Disease	Disease or Syndrome	247	115	2004	2021	111
+D009203	Myocardial Infarction	Disease or Syndrome	241	284	2002	2021	147
+D006509	Hepatitis B	Disease or Syndrome	239	126	2003	2021	133
+D006528	Liver carcinoma	Neoplastic Process	238	82	2003	2021	184
+D008171	Lung diseases	Disease or Syndrome	237	163	2001	2021	185
+D009103	Multiple Sclerosis	Disease or Syndrome	236	134	2002	2021	246
+D050197	Atherosclerosis	Disease or Syndrome	223	219	2001	2021	188
+D008228	Lymphoma, Non-Hodgkin	Neoplastic Process	218	113	1999	2021	161
+D002292	Renal Cell Carcinoma	Neoplastic Process	217	110	2002	2021	221
+D007511	Ischemia	Pathologic Function	217	195	2003	2021	149
+D020521	Cerebrovascular accident	Disease or Syndrome	214	166	2003	2021	120
+D008173	Lung Diseases, Obstructive	Disease or Syndrome	212	121	2005	2021	132
+D014456	Ulcer	Pathologic Function	209	153	2005	2021	125
+D019698	Hepatitis C, Chronic	Disease or Syndrome	205	119	2000	2019	73
+D010190	Pancreatic Neoplasm	Neoplastic Process	202	56	2002	2021	205
+D001835	Body Weight	Organism Attribute	201	142	2005	2021	98
+D006949	Hyperlipidemia	Disease or Syndrome	201	147	2005	2021	79
+D014808	Vitamin D Deficiency	Disease or Syndrome	198	127	2006	2021	90
+D010003	Degenerative polyarthritis	Disease or Syndrome	197	76	2005	2021	148
+D010300	Parkinson Disease	Disease or Syndrome	197	142	2005	2021	152

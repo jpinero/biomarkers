@@ -27,7 +27,7 @@ output:
   BiocStyle::html_document
 css: custom-css.css
 abstract: |
-  Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 60% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
+  Biomarkers play an important role in clinical decision making. They are also key measurement outcomes both in basic  and clinical research and are frequently used as endpoints in Clinical Trials. Nevertheless, the biomarkers measured in clinical trials are mentioned as free text and not standardized, posing challenges in finding, analyzing, and processing these data by computational tools. In this contribution, we have applied artificial intelligence technologies to extract the protein and gene biomarkers more frequently assessed in Clinical Trials data. We have also created a classification to reflect the different ways in which biomarkers are measured. We found over 3,000 biomarkers measured in over 43,000 Clinical Trials involving 2,600 conditions. Our analysis shows that these biomarkers vary in specificity: 66% of the biomarkers are involved in more than one condition, and some proteins such as GPT, CRP, albumin, and immune system proteins are measured in hundreds of different diseases. We make available some examples available in this repository. Using this data, users can found what are the most commonly measured proteins for a specific condition, or what type of technology is used to monitor them.  
   
 vignette: |
   %\VignetteIndexEntry{Vignette Title}
@@ -56,27 +56,36 @@ Clinical trials provide the name of the conditions investigated in the trial. Co
 
 We used the [DISGENET plus](https://beta.disgenetplus.com/) text mining tool [@Pinero2019] that improves the detection and normalization of mentions of genes by relying on deep learning models complemented by an extensive set of custom heuristics, and by integrating analysis modules to consistently detect and characterize distinctive linguistic traits of biomedical texts like the use of acronyms.  
 
-We then selected 1,000 examples of the sentences with mentions of biomarkers, and classified them into 6 different categories: : (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2)  genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens.  We used this corpus to train a random forest classifier to then assign the biomarker types to the rest of the data. We use the rpart package, and the library tidymodels in R. We performed hyperparameter tuning for the number of tokens, and for the number of trees, number of members, and number of features (mtry). We provide more details of the implementation, along with a sample of the developed corpus in [this github repositoy](https://github.com/jpinero/biomarkers).
+We then selected 1,000 examples of the sentences with mentions of biomarkers, and classified them into 6 different categories:  (1) protein biomarkers, which encompasses proteins that are measured in blood, or other biological fluids, or that have been detected using immunohistochemistry, (2)  genetic biomarkers, which includes genes that contain polymorphisms, copy number alterations, or chromosomal abnormalities, (3) phosphobiomarkers, that include abnormal protein phosphorylation, (4) epigenetic biomarkers, that undergo changes in DNA methylation patterns, and (5) expression biomarkers, which are genes that are measured as mRNA, and non-coding RNA such as microRNAs, and (6) cell markers, mainly composed of cell surface antigens.  We used this corpus to train a random forest classifier to then assign the biomarker types to the rest of the data. We use the rpart package, and the library tidymodels in R. We performed hyperparameter tuning for the number of tokens, and for the number of trees, number of members, and number of features (mtry). We provide more details of the implementation, along with a sample of the developed corpus in [this github repositoy](https://github.com/jpinero/biomarkers).
 
 
 
 # Results
-Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 1 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. 
+In Figure 1 we show a general scheme of the pipeline. 
+
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: The Pipeline.'}
+knitr::include_graphics("images/Figures_summary.png")
+```
 
 
-```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.'}
+Using this pipeline, we have processed 398,516 clinical studies available at CT.gov, carried out between 1999 and 2021. We found over 43,000 clinical studies measuring 3,100 biomarkers for 2,600 diseases. The clinical trial have been carried out between 1999 and 2021. Figure 2 shows the trends in the use of biomarker across all therapeutic areas in these 20 years. 
+
+
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 2: Clinical Trials containing biomarkers by therapeutic area per year.'}
 knitr::include_graphics("images/Figure_therapeutic_area_conditions.png")
 ```
 
-Figure 2 shows the number of biomarkers  across all therapeutic areas in these 20 years. 
+Figure 3 shows the number of biomarkers  across all therapeutic areas in these 20 years.  [Here](Conditions.html) is a selection of the top 100 conditions by number of clinical trials in the dataset.
 
 
-```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.'}
+```{r, echo=FALSE, out.width="100%",  fig.cap = 'Figure 2: Number of biomarkers assessed in Clinical Trials by therapeutic area per year.'}
 knitr::include_graphics("images/Figure_therapeutic_area_number_of_genes.png")
 ```
 
 
-```{r, echo=FALSE, fig.width=6, message=FALSE, warning=FALSE}
+Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation) (Figure 4). The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin. AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker.
+
+```{r, echo=FALSE,  fig.cap = 'Figure 4: Biomarker types.', fig.width=6, message=FALSE, warning=FALSE}
 library(ggplot2)
 library(plotly)
 
@@ -106,16 +115,14 @@ plotly::ggplotly(p)
 
 
 
-Seventy-six percent of the biomarkers are measured at protein level, 45% at expression level, 30% are genetic biomarkers, 11% are cell markers, 5% are phosphobiomarkers, and 4% are epigenetic (methylation). The most common biomarkers measured at protein level are hemoglobin, markers of inflammation, such as CRP, IL6, TNF, IL10, and IFN, enzymes related to liver function such as GPT and AST, and other proteins such as insulin, and albumin. AKT1, MAPK1, MTOR, and EGFR are the proteins that are more frequently used as phosphobiomarkers, but EGFR is also frequently assessed for its mutational status, together with KRAS, BRAF, ERBB2, BRCA1 in the context of cancer, and APOE for Alzheimer’s disease. Over 40 clinical trials assess the methylation status of MGMT. The CD4 membrane glycoprotein of T lymphocytes, used to monitor the status of the immune system, is the most frequent cell marker.
-
 Figure 1 shows a selection of the top biomarkers for infections (C01), Neoplasms (C04), Cardiovascular diseases (C14), and Mental disorders (F03). There are several biomarkers that are specific to a particular therapeutic area, for example, ACE2 for infections, MGMT, KRAS, BRAF in cancer, VASP in cardiovascular diseases, and OPRM1, APOE, and COMT for mental disorders.  Other biomarkers are shared across therapeutic indications, such as hemoglobin. 
 
 
 ## Liver Failure example
 
+In Figure we show an example of the 50 most commonly used biomarkers for liver failure. 
 
-
-```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 8}
+```{r, warning=FALSE, fig.cap = 'Figure 1: Clinical Trials by therapeutic area per year.', message=FALSE,echo = FALSE, fig.width = 8}
 library(data.table)
 library(dplyr)
 library(tidyr)
@@ -155,6 +162,10 @@ dat$id <- c(1:nrow(dat))
 
  
 ```
+
+# Conclusions
+ 
+We have developed and applied a text mining pipeline to extract fine-grained information about biomarkers measured in clinical studies. This pipeline constitutes an efficient way to identify the biomarkers measured in a clinical trial, providing interesting insights both in the type of biomarker and their use across therapeutic areas. Over 3,000 biomarkers associated with 2,600 conditions were identified from 43,000 clinical studies from ClinicalTrials.gov  In addition, we have developed a new classification scheme for gene and protein biomarkers, useful to identify the way in which biomarkers are measured in the clinical trial (e.g. genetic, epigenetic, phosphorylation, etc.). Text mining of biomarker information from clinical studies available at CT.gov allows normalization and standardization of the data herein provided, paving the way for automatic and comprehensive data analysis and exploration. Applying this pipeline enables to perform trend analysis on the extracted biomarkers, and their related conditions, assess biomarker specificity, and discover emerging trends about biomarkers of disease. Finally, although there are around 3,000 biomarkers used in the clinical studies, there is still a large fraction of the human genome that remains to be explored as disease biomarkers in the contexts of clinical studies. Nevertheless, the advances in genomic technologies should facilitate the incorporation of more gene and protein biomarkers into clinical trials. 
 
 
 # References
