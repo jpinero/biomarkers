@@ -6,3 +6,4 @@
 </div>
 <p>A repository to document the development of the Biomarkers in Clinical Trials website and publication (in preparation)</p>
 
+See more information about the biomarkers of clinical trials [here](https://jpinero.github.io/biomarkers/index.html)
