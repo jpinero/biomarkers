@@ -13,6 +13,6 @@ library(dplyr)
 
 conditions <-fread("data/top_conditions.tsv")
 dt <- conditions[ order(-conditions$n.clinical.trials),] 
-datatable(dt , caption = "Table 1: Top 50 diseases in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+datatable(dt , caption = "Table 1: Top 100 conditions in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
 
 ```

@@ -1,11 +1,16 @@
 ---
-title: "Top Conditions"
+title: "Biomarkers for liver failure"
 css: custom-css.css
 ---
 
 
 
 ```{r, warning=FALSE,message=FALSE,echo = FALSE, fig.width = 12}
+createLink_NCIT <- function(nct_id){
+  sprintf("<a href='https://clinicaltrials.gov/ct2/show/%s' target='_blank'>%s</a>",nct_id, nct_id)
+}
+
+
 library(data.table)
 library(DT)
 
@@ -14,9 +19,12 @@ library(dplyr)
 library(kableExtra)
 liver <-fread("data/liver_biomarkers.tsv")
 dt <- liver[ order(-liver$year),]  %>% select(nct_id, Symbol,biomarker,sentence,year)
- 
-datatable(dt , caption = "Table 1:  Examples of biomarkers for Liver Failure" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+dt <-dt %>% mutate( nct_id =   createLink_NCIT(nct_id))
 
+ datatable(dt,caption = "Table 1:  Examples of biomarkers for Liver Failure" ,  filter = 'top', 
+                     options = list(pageLength = 10), rownames = F,
+                     escape = F)
+ 
 
 # liver[ order(-liver$year),]  %>% head(25) %>%  select(nct_id, Symbol,biomarker, measurement, year)  %>%  
 #      mutate(

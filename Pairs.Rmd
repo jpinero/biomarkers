@@ -14,6 +14,6 @@ pairs <-fread("data/top_pairs.tsv")
 dt <- pairs[ order(-pairs$n.clinical.trials),]  %>% select(-NCBI , -MESH)
 dt<- dt %>% mutate(fisher_pvalue = format(fisher, digits=1)) %>% select(-fisher)
 
-datatable(dt , caption = "Table 1: Top 50 pairs biomarker-condition in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
+datatable(dt , caption = "Table 1: Top 100 pairs biomarker-condition in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = F), rownames = F)
 
 ```

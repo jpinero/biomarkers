@@ -12,6 +12,6 @@ library(dplyr)
 
 biomarkers <-fread("data/top_biomarkers.tsv")
 dt <- biomarkers[ order(-biomarkers$n.clinical.trials),] 
-datatable(dt , caption = "Table 1: Top 50 biomarkers in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = T), rownames = F)
+datatable(dt , caption = "Table 1: Top 100 biomarkers in Clinical Trials" ,  filter = 'top', options = list(pageLength = 10, scrollX = TRUE,   autoWidth = T), rownames = F)
 
 ```
